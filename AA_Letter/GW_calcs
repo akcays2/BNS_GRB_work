@@ -1,0 +1,76 @@
+
+
+
+For optical followup, at most we have 2 mins of warning (Fig. 5).
+Not much we can do on this side as regards the KN...
+
+Once we get an advance warning of 1 hr, then things become more interesting...
+
+
+== Distinguishing the kilonova from contaminants ==
+
+
+In the era of LSST (and other wide field, deep optical surveys) it is not a problem to cover a large area to an impressive depth. What is hard is the distinguishing the one transient we are interested in a given area, from all the other transients we find. Doing this will followup spectroscopy is time consuming and expensive. For LSST, we will probably have an image covering a field from the night before (typically). But even so, when we reach mag ~24 over ~100s of deg^2, I suspect that there will be a lot of unrelated events.
+
+One way the early warning could help is that we can get an image of the field ~0.5 hr before, and ~0.5 hr after the GW occurs. Within such a short time window, the kilnova is much more likely to be the only thing that has popped up.
+
+
+
+For LSST a "visit" is 34s (including slew from *adjacent*) field. This visit is 2x15s exposures, which cover 9.6 deg^2
+For each such visit, the design spec depth is r=24.7
+
+For BlackGEM, we can reach g=23 in 5 minutes over 8.1 sq deg
+
+
+
+
+For our template kilonova lightcurve, we adopt the model from 
+
+http://adsabs.harvard.edu/abs/2017LRR....20....3M
+
+which best matched AT2017gfo (for example, see http://adsabs.harvard.edu/abs/2017Natur.551...75S )
+
+which has an r-band peak of ~-16.5 at t=1 day. So,
+
+
+
+
+Scenario @100 Mpc (~0 BNS per year)
+m-M = 35
+r=18.5
+Event rate too low to be of interest
+
+
+Scenario @200 Mpc  (~few BNS per year)
+m-M = 36.5
+r=20
+
+
+Scenario @500 Mpc (~100 BNS per year)
+m-M = 38.5
+r=22.5
+
+Do, we can cover a reasonable area and set a limting mag of ~comparable to what we need.
+
+So why do you want to measure these? Cosmology is probably big thing... 500 Mpc is z~0.1, so we can effectively check the low-z end of the Hubble diagram, independendent of SNe Ia. Of course, you can't really see much of an effect from dark energy at z~0.1, you need to get out to ~0.3 before it really changes things a lot)
+If you can efficiently localise the GW (with order 1 hr of BlackGEM followup), we just need to get a late time spectrum of the host to measure z. So, rather than needing a lot of followup, we just need a little
+
+
+=== Science on the early rise ===
+
+
+
+https://arxiv.org/pdf/1802.02164.pdf
+
+But will we be scooped... 
+
+
+
+
+== Looking at the optical afterglow from the GRB ===
+
+
+Antonio???
+
+
+
