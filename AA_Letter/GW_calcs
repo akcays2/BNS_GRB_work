@@ -72,7 +72,8 @@ But will we be scooped...
 
 Antonio???
 
-=== Event rate per 50 Mpc Bins ===========
+=== Event rates per 50 Mpc Bins ===========
+ALSO SEE the Bar PLOT
 
 First bin: 50-100Mpc, last bin: 550-600 Mpc. I will make bar plots when I have more time.
 
@@ -84,8 +85,25 @@ Rates given the upper limit 4740/yr/GPC^{-3}
 
 {4.1475, 11.2575, 21.9225, 36.1425, 53.9175, 75.2475, 100.133, 128.573, 160.568, 196.118, 235.222}
 
-Rates given the lower limit 4740/yr/GPC^{-3}
+Rates given the lower limit 320/yr/GPC^{-3}
 
 {0.28, 0.76, 1.48, 2.44, 3.64, 5.08, 6.76, 8.68, 10.84, 13.24, 15.88}
+
+
+=== Event rates per Delta-z = 0.01 Bins ===========
+ALSO SEE the Bar PLOT
+
+Redshift bins, first one 0 to 0.01, last one 0.11-0.12 with z=0.12 corresponding to 578 Mpc
+
+Average rate based on 1540/yr/GPC^{-3}
+{0.98082, 2.73846, 5.48614, 9.30182, 14.2647, 20.4551, 27.9545, 36.8452, 47.2107, 59.1353, 72.7038}
+
+
+Rates given the upper limit 4740/yr/GPC^{-3}
+{3.01889, 8.42877, 16.8859, 28.6303, 43.9056, 62.9592, 86.0417, 113.407, 145.311, 182.014, 223.777}
+
+
+Rates given the lower limit 320/yr/GPC^{-3}
+{0.203807, 0.569031, 1.13998, 1.93285, 2.96409, 4.25041, 5.80872, 7.65615, 9.81003, 12.2878, 15.1073}
 
 
