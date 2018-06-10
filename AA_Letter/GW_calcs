@@ -113,11 +113,11 @@ It can be slightly better than 2 because by the time SNR accumulates from 15 to 
 I include the SNR=15 results in the third row for comparison
 
 
-D_L(Mpc)         100        200         400         600
+D_L(Mpc)             100        200         400         600
 ------------------------------------------------------------
-Tau_insp        2.92hrs     1.62hrs     52.2'       32.4'
-Tau(SNR=15)     5.34hrs     2.87hrs     90'         60'
-Time_diff       ~ 2.4 hrs   1.25hrs     38'         28'
-Source_motion   ~36deg      ~19deg      ~9.5deg     ~7deg
+T_AW (SNR=30)        2.92hrs     1.62hrs     52.2'       32.4'
+T_AW(SNR=15)         5.34hrs     2.87hrs     90'         60'
+Time_diff            ~ 2.4 hrs   1.25hrs     38'         28'
+Source_motion        ~36deg      ~19deg      ~9.5deg     ~7deg
 in that time 
 
