@@ -1,0 +1,20 @@
+The aa-package contains the special style file aa.cls, which is not under the usual Tex/LaTeX/BibTeX repo so once you download the aa-package you need to the following to fix the error message:
+	``style file aa.cls not found''
+
+These instructions are for Ubuntu16.04 LaTeX. The directory location will change from OS to OS, but the key is to look for texmf/tex
+
+Go to the following directory:
+
+	cd ~/../../var/lib/texmf/tex
+
+Create directory in this folder called latex: 
+
+	mkdir -p latex
+
+copy the class file aa.cls into this folder, use
+
+	sudo cp  or sudo mv
+
+Finally type in
+
+	sudo texhash
