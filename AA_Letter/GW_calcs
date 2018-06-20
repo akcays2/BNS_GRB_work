@@ -121,3 +121,78 @@ Time_diff            ~ 2.4 hrs   1.25hrs     38'         28'
 Source_motion        ~36deg      ~19deg      ~9.5deg     ~7deg
 in that time 
 
+
+===========  NOTES on ET anf FUTURE NETWORK LOCALIZATION =========================
+
+My main sources are work of the Cardiff people led by Fairhurst who is a world-leading expert:
+
+            https://arxiv.org/pdf/1708.00806.pdf   (let's call it P1)
+
+And some very thorough recent work by Zhao and Wen
+
+            https://journals.aps.org/prd/pdf/10.1103/PhysRevD.97.064031  (call it P2)
+
+I added these papers to the repo under the folder Papers.
+
+Summary: P1 essentially partly scoops us, read the lower left of page 11 if nothing else. They additionally present a bleak localization picture. I'll explain how below.
+
+But P1 do not consider the motion of the Earth and this is what P2 does. And in their work, they show that even one single detector, i.e., ET-D is capable of localizing hundreds of sources to 100 deg^2 and a few dozen to 10 deg^2. I'll also elaborate more about their work below.
+
+--------------------------- P1 ---------------------------------------------
+
+For starters, on page 7. they write: "ET provides a rather poor localization by itself". This is true if we neglect Earth's rotation. 
+To this end, P1 considers localization capabilities of networks of GW detectors. The most relevant network for us is Voyager-ET given the figure containing timeline of the third generation (3G) detectors that I sent in my previous email.
+
+At first look, things look rather good for this network, see, e.g., Fig.3 where the localization ellipses are tiny. More telling is their Fig. 4 where we see that more than half of the sources with z<=0.2 will be localized to <~ 10 deg^2. In Table I, they show that we can expect O(500) BNSs to be localized to 10 deg^2 or better.
+
+But the devil is in the details. If you read how they obtained their result, they consider a total network SNR of 12 with 2 individual detectors each with SNR of >= 5.
+Now, in our case, we obtain SNR =15 from ET easily with more than an hour left to the merger. The problem lies with not having a second separate detector that would yield SNR >=5. And this is because Voyager is not sensitive in the range in which ET accumulates SNR of 15 as can be seen from Fig. 1 of P1. There, we see that  Voyager's sensitivity is comparable to A-LIGO's for low frequencies. What this roughly means is that Voyager won't start accumulating any SNR until f=10Hz. But we only have about 16 minutes to the merger from that frequency.
+
+In short, their Voyager-ET network doesn't help us because although it gives excellent localization it can do so most likely ONLY after the merger.
+
+Now, things would vastly improve if we switched to CE-ET network because CE is even more sensitive than ET for low frequencies. However, at this point CE is hypothetical and looking at the time line we see that it is probably a late 2030s detector.
+
+This brings us to Paper 2:
+
+------------------------------  P2 --------------------------------
+
+As they write, with the Earth's rotation incorporated, "an individual detecor can be treated as a network".
+
+They work with ET-D which is slightly less sensitive than ET-C for low frequencies so we can take their work as the worst possible scenario. They also work with ET-B but as we know from my work, it is not sensitive enough to be included in our discussions.
+
+Let's start with Figs. 5 and 6. where they consider 10^4 BNSs at 1Gpc. Things look a bit hopeless, but if you really zoom in and do some "high"-precision measurements with a rules you can see that we are looking at roughly 50 BNSs with localization of 10 deg^2, so we can round this to 0.5% of the population. Now, we are sticking to basically z\approx 0.1 which we can round to 500Mpc doubling the SNR of their sample, but we could round that 0.5% up to 1%. 
+
+The total number of events we expect within z=0.1 is about 160 on average and 500 optimistically. So just ET along could localize 1 to 5 events to 10 deg^2.
+
+This is kind of shown in their violin plot of Fig.10 which is for a single ET detector. The tail pretty much dies before 10 deg^2 reflecting the <~ 1% approximation above.
+
+On the other hand, if we have a 2 ET-D network or CE-ET-D then we can see in Fig. 14 and 16 that virtually ALL the sources are localized to <~ 10 deg^2.
+
+--------------------------------------------------------------------------------------------------------
+
+If we scale things up to 20 deg^2 then we improve by more than a factor of two, but since the E&M observatories have fields of view comparable to 10 deg^2, it is pointless to do this.
+
+So how can we salvage things? We can for example emphasize the importance of a second low-frequency sensitive GW detector. Given that we want it to accumulate just SNR = 5 one hour before the merger. Given that inspiral time scales as f^{-8/3} and 10 Hz corresponds to 16.7 minutes, we obtain
+
+     f_0 = 6.2 Hz for tau_insp = 1 hour.
+
+We can round this down to 5 Hz gives tau_insp = 100 minutes, so it is very plausible that from 5 to 6 Hz this 2nd detector can accumulate SNR = 5
+
+
+
+--------------  Attaining sensitivity of 1e-22 at 5Hz  before CE in the last 2030s------------------------
+
+Basically, the major limitation at f<=10Hz is seismic+gravity gradient noise also called Newtonian noise. If you go underground it is automatically taken care of. That's why ET will be underground, and that is why KAGRA is already underground and CE will also be so. However, LIGO infrastructure will never go under so that is what limits A, A+, Voyager and Virgo.
+
+Indeed, it seems to that A-LIGO's successors A+ and Voyager will not have this Newtonian gravity noise suppressed enough to serve our purposes. However, things are a bit murky here. The 2017 LIGO white paper at:
+
+					https://dcc.ligo.org/public/0142/T1700231/003/T1700231-v3.pdf
+
+shows in Fig. 3 that this is possible, but then their Fig.6 disagrees with this. And the discussion in Sec 3.6 is not encouraging.
+
+On the other hand, underground+cryogenic KAGRA will have a design sensitivity of 10^{-21} at 5 Hz so this almost gives us what we want. 
+TO DO: See if KAGRA will have some advanced version planned for 2030s with improved low frequency sensitivity.
+
+
+
+
