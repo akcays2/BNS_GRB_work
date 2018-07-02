@@ -122,7 +122,7 @@ Source_motion        ~36deg      ~19deg      ~9.5deg     ~7deg
 in that time 
 
 
-===========  NOTES on ET anf FUTURE NETWORK LOCALIZATION =========================
+===========  NOTES on ET and FUTURE NETWORK LOCALIZATION =========================
 
 My main sources are work of the Cardiff people led by Fairhurst who is a world-leading expert:
 
@@ -176,7 +176,7 @@ So how can we salvage things? We can for example emphasize the importance of a s
 
      f_0 = 6.2 Hz for tau_insp = 1 hour.
 
-We can round this down to 5 Hz gives tau_insp = 100 minutes, so it is very plausible that from 5 to 6 Hz this 2nd detector can accumulate SNR = 5
+If we round this down to 5 Hz gives tau_insp = 100 minutes, so it is very plausible that from 5 to 6 Hz this 2nd detector can accumulate SNR = 5
 
 
 
