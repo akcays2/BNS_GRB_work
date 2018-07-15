@@ -191,8 +191,13 @@ Indeed, it seems to that A-LIGO's successors A+ and Voyager will not have this N
 shows in Fig. 3 that this is possible, but then their Fig.6 disagrees with this. And the discussion in Sec 3.6 is not encouraging.
 
 On the other hand, underground+cryogenic KAGRA will have a design sensitivity of 10^{-21} at 5 Hz so this almost gives us what we want. 
-TO DO: See if KAGRA will have some advanced version planned for 2030s with improved low frequency sensitivity.
 
+-------------  FUTURE KAGRA to THE RESCUE? ----------------------------------
+It seems that even with some planned/standard improvements KAGRA will be able to dip below 1e-21 at 5 Hz as can be seen, e.g., in this presentation
 
+	https://gwdoc.icrr.u-tokyo.ac.jp/DocDB/0067/G1706755/004/KIW3_KAGRAplus3.pdf
+
+However, it seems that we may get down to about 6e-22 at 6 Hz. I need to run some numbers to see how things look with this sensitivity.
+The problem always is that the sensitivity has a very steep power law at the low frequency end so we loose a lot of sensitivity going from 10Hz to 5Hz.
 
 
