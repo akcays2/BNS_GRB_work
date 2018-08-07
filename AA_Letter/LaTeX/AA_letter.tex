@@ -2,6 +2,7 @@
 \usepackage[varg]{txfonts}
 \usepackage{graphicx}       % Include figure files
 \usepackage{amsfonts,amsmath}
+\usepackage{natbib}
 \begin{document}
 \title{
 Forecasting Gamma-Ray Bursts with Gravitational-wave Detectors
@@ -55,6 +56,23 @@ Thus, this letter is an appeal/plea(?) to the astronomy community to have in pla
 \maketitle
 
 \section{Introduction}
+
+Gravitational waves offer a unique insight into some of the most extreme physical processes in the Universe - including the merger of black holes (BH) and neutron stars (NS), and the first seconds of core-collapse supernovae explosions. 
+
+With the first direct detection of gravitational waves in 2015 by the Advanced Laser Interferometer Gravitational-Wave
+Observatory (Advanced LIGO; \citealp{FirstGW}), gravitational wave astronomy moved from prospect to reality. The first GW source observed by Advanced LIGO, GW150914, matched the signal predicted for the merger of two black holes with masses 36 and 29 M$_{\odot}$. Along with being the first direct detection of GWs, GW150914 was also the first detection of such heavy black holes, with significantly larger masses compared to those measured for Galactic high mass x-ray binaries. Such massive black holes provide an interesting constraint on stellar evolutionary channels at low metallicity \citep[e.g.][]{FirstGW_astro, Belc16}. While no electromagnetic counterpart is expected to accompany the merger of two black holes, an intensive multi-wavelength search of the probable location of GW150914 was carried out \citep{FirstGW_EM}. Despite yielding a null result, this effort served as a rehearsal in preparation for searches for counterparts to GW sources that {\it are} expected to be accompanied by a EM source.
+
+Only two years after the first detection of merging black holes by Advanced LIGO, both Advanced LIGO and the Virgo gravitational wave observatories detected GW170817, with waveform consistent with the merger of two neutron stars \citep{GW170817}. A spatially and temporally coincident short Gamma Ray Burst (GRB) was also seem by the {\it Fermi} and {\it INTEGRAL} satellites \citep{GW170817_GRB}. This discovery sparked a global effort to find the counterpart of GW170817 at optical wavelengths, which resulted in the identification of AT2017gfo less that 11 hours later \citep{GW170817_EM}. AT2017gfo faded exceptionally rapidly, and displayed cool temperatures and lines from unusual r-process elements at exceptionally high velocities \citep{Smar17,Arca17,Pian17,Coul17,Kilp17}. These characteristics marked AT2017gfo as a kilonova; a transient powered by the radioactive decay of short-lived nuclides formed in the merger of two neutron stars.
+
+The identification of AT2017gfo as the counterpart to GW170817 was enabled by the small region on the sky ($\sim$30 deg$^2$) within which the GW was localised. In addition, at only 40 Mpc, GW170817 was exceptionally close. This enabled the EM counterpart to be identified through targeted observations of galaxies which were at this distance within the GW localisation region \citep{Coul17}. Unfortunately such a strategy is only feasible for the nearest GW sources, and rapidly becomes unfeasible beyond {\bf XXX} Mpc, both as the number of galaxies within the search volume increases, and as the fraction of galaxies with reliable redshifts decreases.
+
+{\bf Something on future GW observatories - introduce Einstein Telescope etc. How many events do we expect to see per year? What at the timescales for these coming online}
+
+{\bf Something on future wide field survey telescopes - e.g. BlackGEM, GOTO, LSST etc}
+
+{\bf Discuss search strategies discussed in literature - e.g. weighting by galaxy mass etc. Bottleneck is spectroscopic classification.}
+
+{\bf Intro to rest of paper. Our novel contribution is that we get an early warning for GWs. Can then use this to get templates immediately prior to the GW detection. Outline rest of section.}
 
 \section{Einstein Telescope}
 
@@ -117,9 +135,19 @@ faded lines in the plot (drawn to 5\,kHz for aesthetic reasons).
 \label{fig:ETB2030}
 \end{figure*}
 
+
+\section{Implications for EM followup of GW detections}
+
+Identifying an optical or NIR counterpart to a GW is an observational challenge. If a GW is only localised to tens, or even hundreds of square degrees, then we must survey a large area of the sky to find an EM counterpart. While large format CCDs make taking imaging of an area of $\sim$100 sq degrees relatively straightforward, we must identify our EM counterpart of interest among the many unrelated astrophysical transients that we expect by chance within the same area. Thusfar, this has relied upon large scale efforts to spectroscopically classify 
+
+
+
 \begin{acknowledgements}
  SA thanks
 \end{acknowledgements}
 
+
+\bibliographystyle{aa}
+\bibliography{GWbib}
 
 \end{document}
