@@ -1,0 +1,102 @@
+\begin{thebibliography}{12}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{{Abbott} {et~al.}(2016{\natexlab{a}}){Abbott}, {Abbott}, {Abbott},
+  {Abernathy}, {Acernese}, {Ackley}, {Adams}, {Adams}, {Addesso}, {Adhikari},
+  \& et~al.}]{FirstGW_astro}
+{Abbott}, B.~P., {Abbott}, R., {Abbott}, T.~D., {et~al.} 2016{\natexlab{a}},
+  \apjl, 818, L22
+
+\bibitem[{{Abbott} {et~al.}(2016{\natexlab{b}}){Abbott}, {Abbott}, {Abbott},
+  {Abernathy}, {Acernese}, {Ackley}, {Adams}, {Adams}, {Addesso}, {Adhikari},
+  \& et~al.}]{FirstGW_EM}
+{Abbott}, B.~P., {Abbott}, R., {Abbott}, T.~D., {et~al.} 2016{\natexlab{b}},
+  \apjl, 826, L13
+
+\bibitem[{{Abbott} {et~al.}(2016{\natexlab{c}}){Abbott}, {Abbott}, {Abbott},
+  {Abernathy}, {Acernese}, {Ackley}, {Adams}, {Adams}, {Addesso}, {Adhikari},
+  \& et~al.}]{FirstGW}
+{Abbott}, B.~P., {Abbott}, R., {Abbott}, T.~D., {et~al.} 2016{\natexlab{c}},
+  Physical Review Letters, 116, 061102
+
+\bibitem[{{Abbott} {et~al.}(2017{\natexlab{a}}){Abbott}, {Abbott}, {Abbott},
+  {Acernese}, {Ackley}, {Adams}, {Adams}, {Addesso}, {Adhikari}, {Adya}, \&
+  et~al.}]{GW170817_GRB}
+{Abbott}, B.~P., {Abbott}, R., {Abbott}, T.~D., {et~al.} 2017{\natexlab{a}},
+  \apjl, 848, L13
+
+\bibitem[{{Abbott} {et~al.}(2017{\natexlab{b}}){Abbott}, {Abbott}, {Abbott},
+  {Acernese}, {Ackley}, {Adams}, {Adams}, {Addesso}, {Adhikari}, {Adya}, \&
+  et~al.}]{GW170817}
+{Abbott}, B.~P., {Abbott}, R., {Abbott}, T.~D., {et~al.} 2017{\natexlab{b}},
+  Physical Review Letters, 119, 161101
+
+\bibitem[{{Abbott} {et~al.}(2017{\natexlab{c}}){Abbott}, {Abbott}, {Abbott},
+  {Acernese}, {Ackley}, {Adams}, {Adams}, {Addesso}, {Adhikari}, {Adya}, \&
+  et~al.}]{GW170817_EM}
+{Abbott}, B.~P., {Abbott}, R., {Abbott}, T.~D., {et~al.} 2017{\natexlab{c}},
+  \apjl, 848, L12
+
+\bibitem[{{Arcavi} {et~al.}(2017){Arcavi}, {Hosseinzadeh}, {Howell}, {McCully},
+  {Poznanski}, {Kasen}, {Barnes}, {Zaltzman}, {Vasylyev}, {Maoz}, \&
+  {Valenti}}]{Arca17}
+{Arcavi}, I., {Hosseinzadeh}, G., {Howell}, D.~A., {et~al.} 2017, \nat, 551, 64
+
+\bibitem[{{Belczynski} {et~al.}(2016){Belczynski}, {Holz}, {Bulik}, \&
+  {O'Shaughnessy}}]{Belc16}
+{Belczynski}, K., {Holz}, D.~E., {Bulik}, T., \& {O'Shaughnessy}, R. 2016,
+  \nat, 534, 512
+
+\bibitem[{{Coulter} {et~al.}(2017){Coulter}, {Foley}, {Kilpatrick}, {Drout},
+  {Piro}, {Shappee}, {Siebert}, {Simon}, {Ulloa}, {Kasen}, {Madore},
+  {Murguia-Berthier}, {Pan}, {Prochaska}, {Ramirez-Ruiz}, {Rest}, \&
+  {Rojas-Bravo}}]{Coul17}
+{Coulter}, D.~A., {Foley}, R.~J., {Kilpatrick}, C.~D., {et~al.} 2017, Science,
+  358, 1556
+
+\bibitem[{{Kilpatrick} {et~al.}(2017){Kilpatrick}, {Foley}, {Kasen},
+  {Murguia-Berthier}, {Ramirez-Ruiz}, {Coulter}, {Drout}, {Piro}, {Shappee},
+  {Boutsia}, {Contreras}, {Di Mille}, {Madore}, {Morrell}, {Pan}, {Prochaska},
+  {Rest}, {Rojas-Bravo}, {Siebert}, {Simon}, \& {Ulloa}}]{Kilp17}
+{Kilpatrick}, C.~D., {Foley}, R.~J., {Kasen}, D., {et~al.} 2017, Science, 358,
+  1583
+
+\bibitem[{{Pian} {et~al.}(2017){Pian}, {D'Avanzo}, {Benetti}, {Branchesi},
+  {Brocato}, {Campana}, {Cappellaro}, {Covino}, {D'Elia}, {Fynbo}, {Getman},
+  {Ghirlanda}, {Ghisellini}, {Grado}, {Greco}, {Hjorth}, {Kouveliotou},
+  {Levan}, {Limatola}, {Malesani}, {Mazzali}, {Melandri}, {M{\o}ller},
+  {Nicastro}, {Palazzi}, {Piranomonte}, {Rossi}, {Salafia}, {Selsing},
+  {Stratta}, {Tanaka}, {Tanvir}, {Tomasella}, {Watson}, {Yang}, {Amati},
+  {Antonelli}, {Ascenzi}, {Bernardini}, {Bo{\"e}r}, {Bufano}, {Bulgarelli},
+  {Capaccioli}, {Casella}, {Castro-Tirado}, {Chassande-Mottin}, {Ciolfi},
+  {Copperwheat}, {Dadina}, {De Cesare}, {di Paola}, {Fan}, {Gendre},
+  {Giuffrida}, {Giunta}, {Hunt}, {Israel}, {Jin}, {Kasliwal}, {Klose}, {Lisi},
+  {Longo}, {Maiorano}, {Mapelli}, {Masetti}, {Nava}, {Patricelli}, {Perley},
+  {Pescalli}, {Piran}, {Possenti}, {Pulone}, {Razzano}, {Salvaterra},
+  {Schipani}, {Spera}, {Stamerra}, {Stella}, {Tagliaferri}, {Testa}, {Troja},
+  {Turatto}, {Vergani}, \& {Vergani}}]{Pian17}
+{Pian}, E., {D'Avanzo}, P., {Benetti}, S., {et~al.} 2017, \nat, 551, 67
+
+\bibitem[{{Smartt} {et~al.}(2017){Smartt}, {Chen}, {Jerkstrand}, {Coughlin},
+  {Kankare}, {Sim}, {Fraser}, {Inserra}, {Maguire}, {Chambers}, {Huber},
+  {Kr{\"u}hler}, {Leloudas}, {Magee}, {Shingles}, {Smith}, {Young}, {Tonry},
+  {Kotak}, {Gal-Yam}, {Lyman}, {Homan}, {Agliozzo}, {Anderson}, {Angus},
+  {Ashall}, {Barbarino}, {Bauer}, {Berton}, {Botticella}, {Bulla}, {Bulger},
+  {Cannizzaro}, {Cano}, {Cartier}, {Cikota}, {Clark}, {De Cia}, {Della Valle},
+  {Denneau}, {Dennefeld}, {Dessart}, {Dimitriadis}, {Elias-Rosa}, {Firth},
+  {Flewelling}, {Fl{\"o}rs}, {Franckowiak}, {Frohmaier}, {Galbany},
+  {Gonz{\'a}lez-Gait{\'a}n}, {Greiner}, {Gromadzki}, {Guelbenzu},
+  {Guti{\'e}rrez}, {Hamanowicz}, {Hanlon}, {Harmanen}, {Heintz}, {Heinze},
+  {Hernandez}, {Hodgkin}, {Hook}, {Izzo}, {James}, {Jonker}, {Kerzendorf},
+  {Klose}, {Kostrzewa-Rutkowska}, {Kowalski}, {Kromer}, {Kuncarayakti},
+  {Lawrence}, {Lowe}, {Magnier}, {Manulis}, {Martin-Carrillo}, {Mattila},
+  {McBrien}, {M{\"u}ller}, {Nordin}, {O'Neill}, {Onori}, {Palmerio},
+  {Pastorello}, {Patat}, {Pignata}, {Podsiadlowski}, {Pumo}, {Prentice}, {Rau},
+  {Razza}, {Rest}, {Reynolds}, {Roy}, {Ruiter}, {Rybicki}, {Salmon}, {Schady},
+  {Schultz}, {Schweyer}, {Seitenzahl}, {Smith}, {Sollerman}, {Stalder},
+  {Stubbs}, {Sullivan}, {Szegedi}, {Taddia}, {Taubenberger}, {Terreran}, {van
+  Soelen}, {Vos}, {Wainscoat}, {Walton}, {Waters}, {Weiland}, {Willman},
+  {Wiseman}, {Wright}, {Wyrzykowski}, \& {Yaron}}]{Smar17}
+{Smartt}, S.~J., {Chen}, T.-W., {Jerkstrand}, A., {et~al.} 2017, \nat, 551, 75
+
+\end{thebibliography}
