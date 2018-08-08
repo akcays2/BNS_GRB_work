@@ -1,4 +1,4 @@
-\begin{thebibliography}{12}
+\begin{thebibliography}{13}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Abbott} {et~al.}(2016{\natexlab{a}}){Abbott}, {Abbott}, {Abbott},
@@ -76,6 +76,16 @@
   {Schipani}, {Spera}, {Stamerra}, {Stella}, {Tagliaferri}, {Testa}, {Troja},
   {Turatto}, {Vergani}, \& {Vergani}}]{Pian17}
 {Pian}, E., {D'Avanzo}, P., {Benetti}, S., {et~al.} 2017, \nat, 551, 67
+
+\bibitem[{{Smartt} {et~al.}(2016){Smartt}, {Chambers}, {Smith}, {Huber},
+  {Young}, {Chen}, {Inserra}, {Wright}, {Coughlin}, {Denneau}, {Flewelling},
+  {Heinze}, {Jerkstrand}, {Magnier}, {Maguire}, {Mueller}, {Rest}, {Sherstyuk},
+  {Stalder}, {Schultz}, {Stubbs}, {Tonry}, {Waters}, {Wainscoat}, {Della
+  Valle}, {Dennefeld}, {Dimitriadis}, {Firth}, {Fraser}, {Frohmaier},
+  {Gal-Yam}, {Harmanen}, {Kankare}, {Kotak}, {Kromer}, {Mandel}, {Sollerman},
+  {Gibson}, {Primak}, \& {Willman}}]{Smar16}
+{Smartt}, S.~J., {Chambers}, K.~C., {Smith}, K.~W., {et~al.} 2016, \apjl, 827,
+  L40
 
 \bibitem[{{Smartt} {et~al.}(2017){Smartt}, {Chen}, {Jerkstrand}, {Coughlin},
   {Kankare}, {Sim}, {Fraser}, {Inserra}, {Maguire}, {Chambers}, {Huber},
