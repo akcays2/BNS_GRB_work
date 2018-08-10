@@ -1,47 +1,47 @@
-This is BibTeX, Version 0.99d (TeX Live 2017)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: AA_letter.aux
 The style file: aa.bst
 Database file #1: GWbib.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 13 entries,
+You've used 16 entries,
             3039 wiz_defined-function locations,
-            754 strings with 12313 characters,
-and the built_in function-call counts, 21113 in all, are:
-= -- 1476
-> -- 3313
-< -- 0
-+ -- 1112
-- -- 1095
-* -- 2132
-:= -- 4011
-add.period$ -- 13
-call.type$ -- 13
-change.case$ -- 417
-chr.to.int$ -- 9
-cite$ -- 13
-duplicate$ -- 235
-empty$ -- 344
-format.name$ -- 1122
-if$ -- 4069
+            781 strings with 13064 characters,
+and the built_in function-call counts, 22284 in all, are:
+= -- 1585
+> -- 3368
+< -- 3
++ -- 1130
+- -- 1110
+* -- 2214
+:= -- 4227
+add.period$ -- 16
+call.type$ -- 16
+change.case$ -- 435
+chr.to.int$ -- 12
+cite$ -- 16
+duplicate$ -- 290
+empty$ -- 424
+format.name$ -- 1147
+if$ -- 4307
 int.to.chr$ -- 5
 int.to.str$ -- 1
-missing$ -- 13
-newline$ -- 43
-num.names$ -- 52
-pop$ -- 411
+missing$ -- 15
+newline$ -- 52
+num.names$ -- 64
+pop$ -- 424
 preamble$ -- 1
-purify$ -- 417
+purify$ -- 433
 quote$ -- 0
-skip$ -- 200
+skip$ -- 253
 stack$ -- 0
-substring$ -- 288
+substring$ -- 358
 swap$ -- 6
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 117
+type$ -- 144
 warning$ -- 0
-while$ -- 52
+while$ -- 63
 width$ -- 0
-write$ -- 133
+write$ -- 165
