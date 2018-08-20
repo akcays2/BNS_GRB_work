@@ -1,4 +1,4 @@
-\begin{thebibliography}{16}
+\begin{thebibliography}{22}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Abbott} {et~al.}(2016{\natexlab{a}}){Abbott}, {Abbott}, {Abbott},
@@ -47,12 +47,39 @@
 {Belczynski}, K., {Holz}, D.~E., {Bulik}, T., \& {O'Shaughnessy}, R. 2016,
   \nat, 534, 512
 
+\bibitem[{{Bellm}(2014)}]{ZTF}
+{Bellm}, E. 2014, in The Third Hot-wiring the Transient Universe Workshop, ed.
+  P.~R. {Wozniak}, M.~J. {Graham}, A.~A. {Mahabal}, \& R.~{Seaman}, 27--33
+
+\bibitem[{{Bloemen} {et~al.}(2016){Bloemen}, {Groot}, {Woudt}, {Klein Wolt},
+  {McBride}, {Nelemans}, {K{\"o}rding}, {Pretorius}, {Roelfsema}, {Bettonvil},
+  {Balster}, {Bakker}, {Dolron}, {van Elteren}, {Elswijk}, {Engels}, {Fender},
+  {Fokker}, {de Haan}, {Hagoort}, {de Hoog}, {ter Horst}, {van der Kevie},
+  {Koz{\l}owski}, {Kragt}, {Lech}, {Le Poole}, {Lesman}, {Morren}, {Navarro},
+  {Paalberends}, {Paterson}, {Paw{\l}aszek}, {Pessemier}, {Raskin}, {Rutten},
+  {Scheers}, {Schuil}, \& {Sybilski}}]{BlackGEM}
+{Bloemen}, S., {Groot}, P., {Woudt}, P., {et~al.} 2016, in \procspie, Vol.
+  9906, Ground-based and Airborne Telescopes VI, 990664
+
 \bibitem[{{Coulter} {et~al.}(2017){Coulter}, {Foley}, {Kilpatrick}, {Drout},
   {Piro}, {Shappee}, {Siebert}, {Simon}, {Ulloa}, {Kasen}, {Madore},
   {Murguia-Berthier}, {Pan}, {Prochaska}, {Ramirez-Ruiz}, {Rest}, \&
   {Rojas-Bravo}}]{Coul17}
 {Coulter}, D.~A., {Foley}, R.~J., {Kilpatrick}, C.~D., {et~al.} 2017, Science,
   358, 1556
+
+\bibitem[{{Drake} {et~al.}(2014){Drake}, {G{\"a}nsicke}, {Djorgovski}, {Wils},
+  {Mahabal}, {Graham}, {Yang}, {Williams}, {Catelan}, {Prieto}, {Donalek},
+  {Larson}, \& {Christensen}}]{Drak14}
+{Drake}, A.~J., {G{\"a}nsicke}, B.~T., {Djorgovski}, S.~G., {et~al.} 2014,
+  \mnras, 441, 1186
+
+\bibitem[{{Dyer} {et~al.}(2018){Dyer}, {Dhillon}, {Littlefair}, {Steeghs},
+  {Ulaczyk}, {Chote}, {Galloway}, \& {Rol}}]{GOTO}
+{Dyer}, M.~J., {Dhillon}, V.~S., {Littlefair}, S., {et~al.} 2018, in Society of
+  Photo-Optical Instrumentation Engineers (SPIE) Conference Series, Vol. 10704,
+  Society of Photo-Optical Instrumentation Engineers (SPIE) Conference Series,
+  107040C
 
 \bibitem[{et~al.(2011)}]{ET_doc}
 et~al., M.~A. 2011, {Einstein gravitational wave Telescope Conceptual Design
@@ -64,6 +91,12 @@ et~al., M.~A. 2011, {Einstein gravitational wave Telescope Conceptual Design
   {Rest}, {Rojas-Bravo}, {Siebert}, {Simon}, \& {Ulloa}}]{Kilp17}
 {Kilpatrick}, C.~D., {Foley}, R.~J., {Kasen}, D., {et~al.} 2017, Science, 358,
   1583
+
+\bibitem[{{LSST Science Collaboration} {et~al.}(2009){LSST Science
+  Collaboration}, {Abell}, {Allison}, {Anderson}, {Andrew}, {Angel}, {Armus},
+  {Arnett}, {Asztalos}, {Axelrod}, \& et~al.}]{LSSTbook}
+{LSST Science Collaboration}, {Abell}, P.~A., {Allison}, J., {et~al.} 2009,
+  ArXiv e-prints [\eprint[arXiv]{0912.0201}]
 
 \bibitem[{{Pian} {et~al.}(2017){Pian}, {D'Avanzo}, {Benetti}, {Branchesi},
   {Brocato}, {Campana}, {Cappellaro}, {Covino}, {D'Elia}, {Fynbo}, {Getman},
@@ -116,6 +149,9 @@ Sathyaprakash, B. {et~al.} 2012, Class. Quant. Grav., 29, 124013, [Erratum:
   Soelen}, {Vos}, {Wainscoat}, {Walton}, {Waters}, {Weiland}, {Willman},
   {Wiseman}, {Wright}, {Wyrzykowski}, \& {Yaron}}]{Smar17}
 {Smartt}, S.~J., {Chen}, T.-W., {Jerkstrand}, A., {et~al.} 2017, \nat, 551, 75
+
+\bibitem[{{Tonry}(2011)}]{ATLAS}
+{Tonry}, J.~L. 2011, \pasp, 123, 58
 
 \bibitem[{Wen \& Schutz(2005)}]{Wen:2005ui}
 Wen, L. \& Schutz, B.~F. 2005, Class. Quant. Grav., 22, S1321
