@@ -10,6 +10,9 @@
 \newcommand{\f}{\frac}
 \newcommand{\nn}{\nonumber}
 \newcommand{\ord}{\mathcal{O}}
+\newcommand\T{\rule{0pt}{2.6ex}}       % Top strut for vertical spacing in tables
+\newcommand\B{\rule[-1.2ex]{0pt}{0pt}} % Bottom strut
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%
 %%%%%%%%
@@ -191,47 +194,47 @@ Then, the moment of detection is given by
 $\bar{f}>f_0$ such that $\rho_\text{ET}(f_0,\bar{f})=15$. Then we immediately have
 $T_\text{AW} = \tau_\text{insp}(\bar{f})$
 and the total accumulated SNR is given by
-$\rho_\text{ET}(f_0, f_\text{ISCO})$, where
-$f_\text{ISCO}$ is the frequency at which the inspiral transitions to plunge. Here, we use the standard approximation $f_\text{ISCO} \approx \tfrac{c^3}{6^{3/2}\pi G (m_1+m_2)} \simeq 1571 \left(\f{2.8M_\odot}{m_1+m_2}\right)\text{Hz}$.
+$\rho_\text{tot}=\rho_\text{ET}(f_0, f_\text{ISCO})$, where
+$f_\text{ISCO}$ is the frequency at which the inspiral transitions to plunge. Here, we use the standard approximation $f_\text{ISCO} \approx \tfrac{c^3}{6^{3/2}\pi G (m_1+m_2)} \simeq 1571 \left(\tfrac{2.8M_\odot}{m_1+m_2}\right)\text{Hz}$.
 
+The only free variable we have left to determine
+$T_\text{AW}$ is the luminosity distance D ($z$ is obtained from it and vice versa). In Fig.~
+\ref{fig:ETB2030} we display the GW strain for four canonical ($m_1=m_2=1.4 M_\odot$) BNS inspirals at $D=100,200, 400, 600\,$Mpc. 
+These scale as $ \sqrt{f} f^{-7/6} = f^{-2/3}$
+thus are straight lines with slope $-2/3$ in the figure.
+ET-C's
+noise is the thick, brown curve with highest sensitivity for $f\lesssim 30\,$Hz. We can clearly see the frequencies $f_0$ where the
+straight lines intersect ET-C's noise curve.
+We list the advance warning times along with the total SNRs for these four sources in  Table~\ref{table:ET}.
+We can see that ET-C is capable of providing
+up to five hours of early warning before the GRB.
+This begs for the opporunity to electromagnetically observe the merger-GRB-kilonova with whatever we can muster, 
+but we need to first see if ET can forecast
+enough BNS events and localize them to make
+a follow-up campaign worthwhile.
+{\bf Discuss event rates, then localization}
 
 \begin{table}[h]
- \caption{Horizon distances of ET-B and ET-C assuming $T_\text{AW} =1\,$hour. $R(D_H)$ is the BNS merger rate within a volume of $D_H^3$
-obtained by rescaling the rate inferred from Advanced LIGO's O1, O2 observing periods cite{GW170817}. $\bar\rho_F(D_H)$ is the total SNR accumulated due to a BNS inspiralling at $D_H$ [see Eq.~()].}
-\label{table:horizon}
+\caption{Forecasting capabilities of the C configuration of Einstein Telescope summarized. 
+We only present the result of the more accurate 3.5PN computation. $\bar{f}$ is the threshold frequency at which
+ET-C accumulates SNR of 15.}
+\label{table:ET}
 \centering
-\begin{tabular}{l|ccc}
+\begin{tabular}{lccc}
+%toprule
+\hline\hline
+$D\,$(Mpc) &   $\bar{f}\,$(Hz) & \ \hspace{5mm} $T_\text{AW}\,$(hours)& ${\rho}_\text{tot}$\T\\
 \hline
- & ET-B & & ET-C\\
-\hline
-  $D_H $& 87\,Mpc& &{613\,Mpc}\\
-  $R(D_H) $& $1^{+2}_{-1}\,\text{yr}^{-1}$&\hspace{5mm} &{$355^{+730}_{-280}\,\text{yr}^{-1}$}\\
-  $\bar\rho_F(D_H)$ & 420 &&{58}\\
-\hline
+100 & $\approx\,$3.27 & 5.34 & 365\\\
+200 &  $\approx\,$4.10 & 2.87\ & 182 \\
+400 &  $\approx\,$5.06 & 1.51\ & 90.5\\
+{\bf 600} & $\approx\,$? & ? & ?  \\
+\hline\hline
 \end{tabular}
 \end{table}
 
-\begin{table*}[h]
-\caption{Forecasting capabilities of Einstein Telescope summarized. 
-ET-B and ET-C refer to the different configurations shown in Fig.~. For the advance warning times, we only present the result of the more accurate 3.5PN computation. $\bar{f}_\text{ET}$ is the threshold frequency at which
-ET-B/C accumulate SNR of 15 which we take to be our detection criterion. Note that both $T_\text{AW}$ and $\bar\rho_F$ are larger for ET-C
-due to its improved sensitivity in the $1\,\text{Hz}\lesssim f\lesssim 30\,$Hz regime compared to ET-B as is clear in Fig.~.
-These results and those of Table.~ are summarized in Fig.}
-\label{table:ET}
-\centering
-\begin{tabular}{l|ccccccc}
-%toprule
-\hline
-$D\,$(Mpc) & \multicolumn{3}{c}{ET-B} &  & \multicolumn{3}{c}{ET-C}\\
-\hline
-{}& $\bar{f}_\text{ET}\,$(Hz) & \ \hspace{7mm} $T_\text{AW}$ \ \hspace{7mm} & $\bar{\rho}_{F}$ &{} & $\bar{f}_\text{ET}\,$(Hz) & \ \hspace{5mm} $T_\text{AW}\hspace{12mm}$& $\bar{\rho}_{F}$\\
-100 & $\approx\,$6.72 &  47.0\,minutes & 306 &{\qquad} & $\approx\,$3.27 & 5.34\,hours\ & 365\\\
-200 & $\approx\,$11.2 & 11.6\,minutes & 152 &{\qquad} & $\approx\,$4.10 & 2.87\,hours\ & 182 \\
-400 & $\approx\,$18.2 & 3.00\,minutes & 75.7 &{\qquad} & $\approx\,$5.06 & 1.51\,hours\ & 90.5\\
-1000 & $\approx\,$41.3 &17.2\,seconds & 29.8& \qquad &    $\approx\,$6.76 & 35.6\,minutes & 35.6  \\
-\hline
-\end{tabular}
-\end{table*}
+
+
 
 
 \newpage
@@ -289,3 +292,21 @@ AGN can often be identified through their historical lightcurves, which may show
 \bibliography{GWbib}
 
 \end{document}
+
+
+
+\begin{table}[h]
+ \caption{Horizon distances of ET-B and ET-C assuming $T_\text{AW} =1\,$hour. $R(D_H)$ is the BNS merger rate within a volume of $D_H^3$
+obtained by rescaling the rate inferred from Advanced LIGO's O1, O2 observing periods cite{GW170817}. $\bar\rho_F(D_H)$ is the total SNR accumulated due to a BNS inspiralling at $D_H$ [see Eq.~()].}
+\label{table:horizon}
+\centering
+\begin{tabular}{l|ccc}
+\hline
+ & ET-B & & ET-C\\
+\hline
+  $D_H $& 87\,Mpc& &{613\,Mpc}\\
+  $R(D_H) $& $1^{+2}_{-1}\,\text{yr}^{-1}$&\hspace{5mm} &{$355^{+730}_{-280}\,\text{yr}^{-1}$}\\
+  $\bar\rho_F(D_H)$ & 420 &&{58}\\
+\hline
+\end{tabular}
+\end{table}
