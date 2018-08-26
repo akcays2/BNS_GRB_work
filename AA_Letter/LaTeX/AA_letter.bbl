@@ -1,4 +1,4 @@
-\begin{thebibliography}{22}
+\begin{thebibliography}{23}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Abbott} {et~al.}(2016{\natexlab{a}}){Abbott}, {Abbott}, {Abbott},
@@ -36,6 +36,15 @@
   et~al.}]{GW170817_EM}
 {Abbott}, B.~P., {Abbott}, R., {Abbott}, T.~D., {et~al.} 2017{\natexlab{c}},
   \apjl, 848, L12
+
+\bibitem[{Abernathy {et~al.}(2011)Abernathy, Acernese, Ajith, Allen,
+  Amaro-Seoane, Andersson, Aoudia, Astone, Krishnan, Barack, \&
+  et~al.}]{ET_doc}
+Abernathy, M., Acernese, F., Ajith, P., {et~al.} 2011, {Einstein gravitational
+  wave Telescope Conceptual Design Study}, Tech. rep., European Commission
+
+\bibitem[{{Akcay}(2018)}]{Akcay18}
+{Akcay}, S. 2018, Annals der Physik, 441, 1186
 
 \bibitem[{{Arcavi} {et~al.}(2017){Arcavi}, {Hosseinzadeh}, {Howell}, {McCully},
   {Poznanski}, {Kasen}, {Barnes}, {Zaltzman}, {Vasylyev}, {Maoz}, \&
@@ -80,10 +89,6 @@
   Photo-Optical Instrumentation Engineers (SPIE) Conference Series, Vol. 10704,
   Society of Photo-Optical Instrumentation Engineers (SPIE) Conference Series,
   107040C
-
-\bibitem[{et~al.(2011)}]{ET_doc}
-et~al., M.~A. 2011, {Einstein gravitational wave Telescope Conceptual Design
-  Study}, Tech. rep., European Commission
 
 \bibitem[{{Kilpatrick} {et~al.}(2017){Kilpatrick}, {Foley}, {Kasen},
   {Murguia-Berthier}, {Ramirez-Ruiz}, {Coulter}, {Drout}, {Piro}, {Shappee},
