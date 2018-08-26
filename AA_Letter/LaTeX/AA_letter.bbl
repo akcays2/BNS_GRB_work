@@ -1,4 +1,4 @@
-\begin{thebibliography}{23}
+\begin{thebibliography}{24}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Abbott} {et~al.}(2016{\natexlab{a}}){Abbott}, {Abbott}, {Abbott},
@@ -59,6 +59,9 @@ Abernathy, M., Acernese, F., Ajith, P., {et~al.} 2011, {Einstein gravitational
 \bibitem[{{Bellm}(2014)}]{ZTF}
 {Bellm}, E. 2014, in The Third Hot-wiring the Transient Universe Workshop, ed.
   P.~R. {Wozniak}, M.~J. {Graham}, A.~A. {Mahabal}, \& R.~{Seaman}, 27--33
+
+\bibitem[{Blanchet(2014)}]{Blanchet_LRR}
+Blanchet, L. 2014, Living Rev. Rel., 17, 2
 
 \bibitem[{{Bloemen} {et~al.}(2016){Bloemen}, {Groot}, {Woudt}, {Klein Wolt},
   {McBride}, {Nelemans}, {K{\"o}rding}, {Pretorius}, {Roelfsema}, {Bettonvil},

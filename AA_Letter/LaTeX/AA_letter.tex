@@ -9,6 +9,7 @@
 \newcommand{\ee}{\end{equation}}
 \newcommand{\f}{\frac}
 \newcommand{\nn}{\nonumber}
+\newcommand{\ord}{\mathcal{O}}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%
 %%%%%%%%
@@ -132,8 +133,9 @@ We use $f$ to denote the quadrupole GW frequency
 in the detector frame. $c$ is the speed of light and $G$ is Newton's constant.
 \section{Einstein Telescope}
 \label{sect:et}
-Consider a BNS system with component masses
-$m_1, m_2$. For GW frequencies of interest to us here ($f \lesssim 10\,$Hz), the binary is undergoing an adiabatic inspiral dominated by
+In this section, we want to compute advanced warning times ($T_\text{AW}$) ET will provide.
+To this end, consider a BNS system with component masses
+$m_1, m_2$ inspiraling at a luminosity distance $D$ with a corresponding redshift $z$. For GW frequencies of interest to us here ($f \lesssim 10\,$Hz), the binary is undergoing an adiabatic inspiral dominated by
 the emission of leading-order (quadrupole)
 gravitational radiation. By balancing the
 power emission in GWs to the rate of change of binding energy, we obtain the frequency evolution of the GW frequency
@@ -142,16 +144,42 @@ power emission in GWs to the rate of change of binding energy, we obtain the fre
 \dot{f} = \f{96}{5}\pi^{8/3} \f{(G M_c)}{c^5}^{5/3}\, f^{11/3}, \label{eq:fdot}
 \ee
 where $M_c  = {(m_1 m_2)^{3/5}}{(m_1+m_2)^{-1/5}} $ is the chirp mass.
-After fixing an integration, Eq.~\ref{eq:fdot}
+After fixing an integration constant, Eq.~\ref{eq:fdot}
 can be integrated to yield the time left to merger at a given frequency, usually called the inspiral time
 %
 \begin{align}
 \tau_\text{insp}(f) &= \f{5}{256\pi}\f{c^5}{(\pi G M_c)^{5/3}} \,f^{-8/3}\nn\\
 &=16.72\,\text{minutes} \, \left(\f{1.219 M_\odot}{M_c}\right)^{5/3}\,\left(\f{10\,\text{Hz}}{f}\right)^{8/3}
-\label{eq:tau_insp}\, ,
+\label{eq:tau_insp}\, .
 \end{align}
 %
+This result can be supplemented with a post-Newtonian series up to $\ord(c^{-7})$ \citep{Blanchet_LRR}, but the resulting expressions
+are rather ungainly and only change $\tau_\text{insp}$ by $\lesssim 2\%$.
 
+To obtain $T_\text{AW}$ we must choose $f$
+which necessitates a brief discussion on the
+effects GWs have on interferometers (IFOs).
+It is a well known result in general relativity that passing GWs induce a scalar response in a given IFO known as the GW strain, which is a function of GW polarization amplitudes and IFO 
+antenna pattern functions. In frequency domain, the norm of the GW strain is given by
+%
+$|\tilde{h}(f)|=A h_0 f^{-7/6} |Q|,$ %\label{eq:h_tilde}
+%\ee
+%
+where $A= \pi^{-2/3}(5/24)^{1/2}, h_0 = c  (1+z)^{-1}\tilde{M}^{5/6}/D$ with $\tilde{M}= G  (1+z)M_c c^{-3}$ and $Q$ is the IFO quality factor which is a function of source sky location angles $(\theta,\phi)$, its inclination $\iota$, and the relative detector-source polarization angle $\psi$.
+
+The IFO response to a GW strain is quantified in terms of a signal-to-noise ratio (SNR), which 
+for a detector with triangular topology like ET, reads
+%
+\be
+\rho_{\text{ET}} = \f{6}{5}A\, h_0  (1+z)^{-1/6} \left[\int_{f_0}^{f_\text{ISCO}} d f\, \f{f^{-7/3}}{S_n(f)}\right]^{1/2} \label{eq:ET_SNR},
+\ee
+%
+where %$z$ is the source redshift and
+$f_\text{ISCO}$ is the frequency at which the inspiral transitions to a mutual plunge. Here, we use the standard approximation $f_\text{ISCO} \approx \tfrac{c^3}{6^{3/2}\pi G (m_1+m_2)} \simeq 1571 \left(\f{2.8M_\odot}{m_1+m_2}\right)\text{Hz}$.
+The factor of $6/5$ in Eq.~(\ref{eq:ET_SNR})
+is due to a RMS-averaging over the angles $\{\theta,\phi,\iota,\psi\}$. 
+For each BNS source, this factor may vary by
+$\approx \pm 30\%$, but will always be $>0$ thanks to ET not having any blind spots.
 
 
 \begin{table}[h]
