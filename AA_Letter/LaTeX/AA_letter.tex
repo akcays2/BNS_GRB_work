@@ -133,7 +133,8 @@ We use $f$ to denote the quadrupole GW frequency
 in the detector frame. $c$ is the speed of light and $G$ is Newton's constant.
 \section{Einstein Telescope}
 \label{sect:et}
-In this section, we want to compute advanced warning times ($T_\text{AW}$) ET will provide.
+In this section, we want to compute advance warning times ($T_\text{AW}$) ET will provide.
+The computational details are provided in \citep{Akcay18}.
 To this end, consider a BNS system with component masses
 $m_1, m_2$ inspiraling at a luminosity distance $D$ with a corresponding redshift $z$. For GW frequencies of interest to us here ($f \lesssim 10\,$Hz), the binary is undergoing an adiabatic inspiral dominated by
 the emission of leading-order (quadrupole)
@@ -171,15 +172,27 @@ The IFO response to a GW strain is quantified in terms of a signal-to-noise rati
 for a detector with triangular topology like ET, reads
 %
 \be
-\rho_{\text{ET}} = \f{6}{5}A\, h_0  (1+z)^{-1/6} \left[\int_{f_0}^{f_\text{ISCO}} d f\, \f{f^{-7/3}}{S_n(f)}\right]^{1/2} \label{eq:ET_SNR},
+\rho_{\text{ET}}(f_1,f_2) = \f{6}{5}A\, h_0  (1+z)^{-1/6} \left[\int_{f_1}^{f_2} d f'\, \f{f'^{-7/3}}{S_n(f')}\right]^{1/2} \label{eq:ET_SNR},
 \ee
 %
 where %$z$ is the source redshift and
-$f_\text{ISCO}$ is the frequency at which the inspiral transitions to a mutual plunge. Here, we use the standard approximation $f_\text{ISCO} \approx \tfrac{c^3}{6^{3/2}\pi G (m_1+m_2)} \simeq 1571 \left(\f{2.8M_\odot}{m_1+m_2}\right)\text{Hz}$.
-The factor of $6/5$ in Eq.~(\ref{eq:ET_SNR})
-is due to a RMS-averaging over the angles $\{\theta,\phi,\iota,\psi\}$. 
+$\sqrt{S_n(f)}$ is the {\it amplitude spectral density} (ASD) of the detector (also called detector noise) and
+the factor of $6/5$ in Eq.~(\ref{eq:ET_SNR})
+is due to an RMS-averaging over the angles $\{\theta,\phi,\iota,\psi\}$. 
 For each BNS source, this factor may vary by
 $\approx \pm 30\%$, but will always be $>0$ thanks to ET not having any blind spots.
+
+We now use Eq.~(\ref{eq:ET_SNR}) to provide a precise definition of $T_\text{AW}$. Keep in mind
+that the advance warning time is the time interval between the moment of detection and the merger,
+therefore we must first define the former.
+We do this as follows: let $f_0$ be the frequency
+at which the GW strain equals the detector noise, i.e., $\sqrt{S_n(f_0)}=2\sqrt{f_0} \tilde{H}_\text{ET}(f_0)$ where $\tilde{H}_\text{ET}(f)=3 h_0 f^{-7/6}/5$.
+Then, the moment of detection is given by 
+$\bar{f}>f_0$ such that $\rho_\text{ET}(f_0,\bar{f})=15$. Then we immediately have
+$T_\text{AW} = \tau_\text{insp}(\bar{f})$
+and the total accumulated SNR is given by
+$\rho_\text{ET}(f_0, f_\text{ISCO})$, where
+$f_\text{ISCO}$ is the frequency at which the inspiral transitions to plunge. Here, we use the standard approximation $f_\text{ISCO} \approx \tfrac{c^3}{6^{3/2}\pi G (m_1+m_2)} \simeq 1571 \left(\f{2.8M_\odot}{m_1+m_2}\right)\text{Hz}$.
 
 
 \begin{table}[h]
