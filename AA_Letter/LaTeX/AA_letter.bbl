@@ -1,4 +1,4 @@
-\begin{thebibliography}{35}
+\begin{thebibliography}{37}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Abbott} {et~al.}(2016{\natexlab{a}}){Abbott}, {Abbott}, {Abbott},
@@ -48,6 +48,9 @@
   et~al.}]{ET_doc}
 Abernathy, M., Acernese, F., Ajith, P., {et~al.} 2011, {Einstein gravitational
   wave Telescope Conceptual Design Study}, Tech. rep., European Commission
+
+\bibitem[{Adam {et~al.}(2016)}]{Planck2015}
+Adam, R. {et~al.} 2016, Astron. Astrophys., 594, A1
 
 \bibitem[{{Akcay}(2018)}]{Akcay18}
 {Akcay}, S. 2018, Annals der Physik, 441, 1186
@@ -128,6 +131,9 @@ Blanchet, L. 2014, Living Rev. Rel., 17, 2
   Flaminio, \& DeSalvo}]{Hild:2009ns}
 Hild, S., Chelkowski, S., Freise, A., {et~al.} 2010, Class. Quant. Grav., 27,
   015003
+
+\bibitem[{Hogg(1999)}]{Hogg:1999ad}
+Hogg, D.~W. 1999 [\eprint[arXiv]{astro-ph/9905116}]
 
 \bibitem[{{Jin} {et~al.}(2018){Jin}, {Li}, {Wang}, {Wang}, {He}, {Yuan},
   {Zhang}, {Zou}, {Fan}, \& {Wei}}]{2018ApJ...857..128J}

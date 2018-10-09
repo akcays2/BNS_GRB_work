@@ -77,15 +77,15 @@ ALSO SEE the Bar PLOT
 
 First bin: 50-100Mpc, last bin: 550-600 Mpc. I will make bar plots when I have more time.
 
-Average rate based on 1540/yr/GPC^{-3}
+Average rate based on 1540/yr/GPC^3
 
 {1.3475, 3.6575, 7.1225, 11.7425, 17.5175, 24.4475, 32.5325, 41.7725, 52.1675, 63.7175, 76.4225}
 
-Rates given the upper limit 4740/yr/GPC^{-3}
+Rates given the upper limit 4740/yr/GPC^3
 
 {4.1475, 11.2575, 21.9225, 36.1425, 53.9175, 75.2475, 100.133, 128.573, 160.568, 196.118, 235.222}
 
-Rates given the lower limit 320/yr/GPC^{-3}
+Rates given the lower limit 320/yr/GPC^3
 
 {0.28, 0.76, 1.48, 2.44, 3.64, 5.08, 6.76, 8.68, 10.84, 13.24, 15.88}
 

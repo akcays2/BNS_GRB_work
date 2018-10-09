@@ -4,44 +4,46 @@ The top-level auxiliary file: AA_letter.aux
 The style file: aa.bst
 Database file #1: GWbib.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 35 entries,
+Warning--empty journal in Hogg:1999ad
+You've used 37 entries,
             3039 wiz_defined-function locations,
-            924 strings with 18170 characters,
-and the built_in function-call counts, 35446 in all, are:
-= -- 2621
-> -- 4781
-< -- 9
-+ -- 1604
-- -- 1564
-* -- 3399
-:= -- 6650
-add.period$ -- 35
-call.type$ -- 35
-change.case$ -- 661
-chr.to.int$ -- 30
-cite$ -- 35
-duplicate$ -- 677
-empty$ -- 961
-format.name$ -- 1645
-if$ -- 6909
+            938 strings with 18399 characters,
+and the built_in function-call counts, 36140 in all, are:
+= -- 2682
+> -- 4814
+< -- 11
++ -- 1615
+- -- 1573
+* -- 3450
+:= -- 6783
+add.period$ -- 37
+call.type$ -- 37
+change.case$ -- 671
+chr.to.int$ -- 32
+cite$ -- 38
+duplicate$ -- 714
+empty$ -- 1010
+format.name$ -- 1659
+if$ -- 7044
 int.to.chr$ -- 6
 int.to.str$ -- 1
-missing$ -- 31
-newline$ -- 109
-num.names$ -- 141
-pop$ -- 654
+missing$ -- 33
+newline$ -- 115
+num.names$ -- 149
+pop$ -- 663
 preamble$ -- 1
-purify$ -- 659
+purify$ -- 669
 quote$ -- 0
-skip$ -- 597
+skip$ -- 627
 stack$ -- 0
-substring$ -- 775
-swap$ -- 44
+substring$ -- 804
+swap$ -- 45
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 315
-warning$ -- 0
-while$ -- 140
+type$ -- 333
+warning$ -- 1
+while$ -- 147
 width$ -- 0
-write$ -- 355
+write$ -- 374
+(There was 1 warning)
