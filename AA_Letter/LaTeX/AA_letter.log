@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.7.19)  9 OCT 2018 16:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.7.19)  9 OCT 2018 18:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -955,20 +955,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 252--256
 tt
  []
 
-LaTeX Font Info:    Try loading font information for T1+txtt on input line 264.
+LaTeX Font Info:    Try loading font information for T1+txtt on input line 266.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/t1txtt.fd
 File: t1txtt.fd 2000/12/15 v3.1
 )
-Underfull \hbox (badness 6808) in paragraph at lines 264--264
-[]\T1/txr/bx/n/9 Table 2. |\T1/txr/m/n/9 Event rates, the fig-ures have been ro
-unded when
- []
-
-
-Underfull \hbox (badness 4886) in paragraph at lines 264--264
-\T1/txr/m/n/9 ap-pro-pri-ate []\T1/txtt/m/n/9 SA: Morgan, should we add apparen
-t magnitude
+Underfull \hbox (badness 2608) in paragraph at lines 266--266
+\T1/txr/m/n/9 the ta-ble are $\OML/txmi/m/it/9 D[] [][]$\T1/txr/m/n/9 . The num
+-bers have been rounded when
  []
 
 
@@ -979,52 +973,62 @@ pdfTeX warning: /usr/bin/pdflatex (file ../Figs/ET_strains_redshifted.pdf): PDF
 File: ../Figs/ET_strains_redshifted.pdf Graphic file (type pdf)
 
 <use ../Figs/ET_strains_redshifted.pdf>
-Package pdftex.def Info: ../Figs/ET_strains_redshifted.pdf used on input line 2
-89.
+Package pdftex.def Info: ../Figs/ET_strains_redshifted.pdf used on input line 3
+00.
 (pdftex.def)             Requested size: 256.0748pt x 159.5302pt.
- [3 <../Figs/ET_strains_redshifted.pdf>]
-LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 9.49997pt on input line 309.
-LaTeX Font Info:    Font shape `T1/txss/m/it' in size <10> not available
-(Font)              Font shape `T1/txss/m/sl' tried instead on input line 309.
-LaTeX Font Info:    Font shape `T1/txss/m/sl' will be
-(Font)              scaled to size 9.49997pt on input line 309.
 
-Underfull \hbox (badness 3386) in paragraph at lines 313--314
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[3]
+LaTeX Font Info:    Font shape `T1/txss/m/n' will be
+(Font)              scaled to size 9.49997pt on input line 320.
+LaTeX Font Info:    Font shape `T1/txss/m/it' in size <10> not available
+(Font)              Font shape `T1/txss/m/sl' tried instead on input line 320.
+LaTeX Font Info:    Font shape `T1/txss/m/sl' will be
+(Font)              scaled to size 9.49997pt on input line 320.
+
+Underfull \hbox (badness 3386) in paragraph at lines 324--325
 []\T1/txr/m/n/10 AGN can of-ten be iden-ti-fied through their his-tor-i-cal
  []
 
-<plot.pdf, id=44, 462.52798pt x 346.89601pt>
+<plot.pdf, id=24, 462.52798pt x 346.89601pt>
 File: plot.pdf Graphic file (type pdf)
  <use plot.pdf>
-Package pdftex.def Info: plot.pdf used on input line 319.
+Package pdftex.def Info: plot.pdf used on input line 330.
 (pdftex.def)             Requested size: 256.0748pt x 192.06375pt.
- (./AA_letter.bbl)
-[4 <./plot.pdf>] (./AA_letter.aux) ) 
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+(./AA_letter.bbl) [4 <../Figs/ET_strains_redshifted.pdf> <./plot.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./plot.pdf): PDF inclusion: multiple pd
+fs with page group included in a single page
+>] (./AA_letter.aux) ) 
 Here is how much of TeX's memory you used:
  6281 strings out of 493033
  80744 string characters out of 6136455
- 173390 words of memory out of 5000000
+ 176636 words of memory out of 5000000
  9610 multiletter control sequences out of 15000+600000
  101033 words of font info for 157 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,13n,45p,1484b,348s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dv
-ips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfo
-nts/txsya.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf
--dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/ut
-mri8a.pfb>
-Output written on AA_letter.pdf (4 pages, 149422 bytes).
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.en
+c}</usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/txfonts/t1xtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfont
+s/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsya.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/u
+tmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on AA_letter.pdf (4 pages, 150389 bytes).
 PDF statistics:
- 120 PDF objects out of 1000 (max. 8388607)
+ 119 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
