@@ -152,17 +152,28 @@ In short, their Voyager-ET network doesn't help us because although it gives exc
 
 Now, things would vastly improve if we switched to CE-ET (CE=Cosmic Explorer, a proposed American 40km long L-interferometer to be operational by 2030-2040) network because CE is even more sensitive than ET for low frequencies. However, at this point CE is hypothetical and looking at the time line we see that it is probably a late 2030s detector.
 
+Having spoken with a CE person, it seems there is plenty of hope for CE and maybe more than ET.
+The site has already been chosen for example. 
+Looking at Fig. 2 of 1607.08697, we see that CE hits strain = 10^{-22} at 5 Hz. 
+From 5 Hz, inspiral time is ~ 1.75 hours.
+The strain for a BNS at 400 Mpc hits 10^{-22} at 5Hz.
+All of this means that, CE can pick up BNS <= 400 Mpc from 5Hz, and perhaps accumulate
+SNR =15 with more than one hour left to merger, meaning f = 6.2 Hz.
+So I need to compute CE's SNRs for <=400 Mpc BNS systems from 5 Hz to 6.2Hz to see which ones
+make the SNR 15 cutoff. But if we go back to the results of P1 and stick to their second detector SNR of 5 then CE easily gives us what we want.
+I need to do some calculations and also think about this a bit more in terms of P1's results.
+
 This brings us to Paper 2:
 
 ------------------------------  P2 --------------------------------
 
-As they write, with the Earth's rotation incorporated, "an individual detecor can be treated as a network".
+As they write, with the Earth's rotation incorporated, "an individual detector can be treated as a network".
 
 They work with ET-D which is slightly less sensitive than ET-C for low frequencies so we can take their work as the worst possible scenario. They also work with ET-B but as we know from my work, it is not sensitive enough to be included in our discussions.
 
-Let's start with Figs. 5 and 6. where they consider 10^4 BNSs at 1Gpc. Things look a bit hopeless, but if you really zoom in and do some "high"-precision measurements with a rules you can see that we are looking at roughly 50 BNSs with localization of 10 deg^2, so we can round this to 0.5% of the population. Now, we are sticking to basically z\approx 0.1 which we can round to 500Mpc doubling the SNR of their sample, but we could round that 0.5% up to 1%. 
+Let's start with Figs. 5 and 6. where they consider 10^4 BNSs at 1Gpc. Things look a bit hopeless, but if you really zoom in and do some "high"-precision measurements with a ruler you can see that we are looking at roughly 50 BNSs with localization of 10 deg^2, so we can round this to 0.5% of the population. Now, we are sticking to basically z\approx 0.1 which we can round to 500Mpc doubling the SNR of their sample, but we could round that 0.5% up to 1%. 
 
-The total number of events we expect within z=0.1 is about 160 on average and 500 optimistically. So just ET along could localize 1 to 5 events to 10 deg^2.
+The total number of events we expect within z=0.1 is about 160 on average and 500 optimistically. So just ET alone could localize 1 to 5 events to 10 deg^2.
 
 This is kind of shown in their violin plot of Fig.10 which is for a single ET detector. The tail pretty much dies before 10 deg^2 reflecting the <~ 1% approximation above.
 

@@ -1,4 +1,4 @@
-\begin{thebibliography}{37}
+\begin{thebibliography}{38}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Abbott} {et~al.}(2016{\natexlab{a}}){Abbott}, {Abbott}, {Abbott},
@@ -218,5 +218,8 @@ Sathyaprakash, B. {et~al.} 2012, Class. Quant. Grav., 29, 124013, [Erratum:
 
 \bibitem[{Wen \& Schutz(2005)}]{Wen:2005ui}
 Wen, L. \& Schutz, B.~F. 2005, Class. Quant. Grav., 22, S1321
+
+\bibitem[{Zhao \& Wen(2018)}]{Zhao:2017cbb}
+Zhao, W. \& Wen, L. 2018, Phys. Rev., D97, 064031
 
 \end{thebibliography}

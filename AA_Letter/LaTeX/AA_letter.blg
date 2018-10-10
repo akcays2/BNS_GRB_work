@@ -3,47 +3,48 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: AA_letter.aux
 The style file: aa.bst
 Database file #1: GWbib.bib
+Warning--I didn't find a database entry for "GW_IFO_LRR"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--empty journal in Hogg:1999ad
-You've used 37 entries,
+You've used 38 entries,
             3039 wiz_defined-function locations,
-            938 strings with 18399 characters,
-and the built_in function-call counts, 36140 in all, are:
-= -- 2682
-> -- 4814
-< -- 11
-+ -- 1615
-- -- 1573
-* -- 3450
-:= -- 6783
-add.period$ -- 37
-call.type$ -- 37
-change.case$ -- 671
-chr.to.int$ -- 32
-cite$ -- 38
-duplicate$ -- 714
-empty$ -- 1010
-format.name$ -- 1659
-if$ -- 7044
+            948 strings with 18644 characters,
+and the built_in function-call counts, 36579 in all, are:
+= -- 2722
+> -- 4836
+< -- 12
++ -- 1622
+- -- 1579
+* -- 3483
+:= -- 6859
+add.period$ -- 38
+call.type$ -- 38
+change.case$ -- 677
+chr.to.int$ -- 33
+cite$ -- 39
+duplicate$ -- 733
+empty$ -- 1039
+format.name$ -- 1670
+if$ -- 7135
 int.to.chr$ -- 6
 int.to.str$ -- 1
-missing$ -- 33
-newline$ -- 115
-num.names$ -- 149
-pop$ -- 663
+missing$ -- 34
+newline$ -- 118
+num.names$ -- 153
+pop$ -- 669
 preamble$ -- 1
-purify$ -- 669
+purify$ -- 675
 quote$ -- 0
-skip$ -- 627
+skip$ -- 648
 stack$ -- 0
-substring$ -- 804
+substring$ -- 834
 swap$ -- 45
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 333
+type$ -- 342
 warning$ -- 1
-while$ -- 147
+while$ -- 151
 width$ -- 0
-write$ -- 374
-(There was 1 warning)
+write$ -- 384
+(There were 2 warnings)
