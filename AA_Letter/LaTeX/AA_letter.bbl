@@ -1,5 +1,9 @@
-\begin{thebibliography}{38}
+\begin{thebibliography}{45}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{LIG(????)}]{LIGO_Voy}
+ ????, {What Comes Next for LIGO? 2016 LIGO-DAWN Workshop II},
+  \url{https://wiki.ligo.org/pub/LSC/LIGOworkshop2016/WebHome/Dawn-II-Report-SecondDraft-v2.pdf}
 
 \bibitem[{{Abbott} {et~al.}(2016{\natexlab{a}}){Abbott}, {Abbott}, {Abbott},
   {Abernathy}, {Acernese}, {Ackley}, {Adams}, {Adams}, {Addesso}, {Adhikari},
@@ -43,6 +47,9 @@
 {Abbott}, B.~P., {Abbott}, R., {Abbott}, T.~D., {et~al.} 2017{\natexlab{d}},
   \apjl, 848, L12
 
+\bibitem[{Abbott {et~al.}(2017)}]{Evans:2016mbw}
+Abbott, B.~P. {et~al.} 2017, Class. Quant. Grav., 34, 044001
+
 \bibitem[{Abernathy {et~al.}(2011)Abernathy, Acernese, Ajith, Allen,
   Amaro-Seoane, Andersson, Aoudia, Astone, Krishnan, Barack, \&
   et~al.}]{ET_doc}
@@ -54,6 +61,14 @@ Adam, R. {et~al.} 2016, Astron. Astrophys., 594, A1
 
 \bibitem[{{Akcay}(2018)}]{Akcay18}
 {Akcay}, S. 2018, Annals der Physik, 441, 1186
+
+\bibitem[{Akutsu {et~al.}(2017)}]{Akutsu:2017thy}
+Akutsu, T. {et~al.} 2017, in {15th International Conference on Topics in
+  Astroparticle and Underground Physics (TAUP 2017) Sudbury, Ontario, Canada,
+  July 24-28, 2017}
+
+\bibitem[{Akutsu {et~al.}(2018)}]{KAGRA2}
+Akutsu, T. {et~al.} 2018, PTEP, 2018, 013F01
 
 \bibitem[{{Antolini} \& {Heyl}(2016)}]{2016MNRAS.462.1085A}
 {Antolini}, E. \& {Heyl}, J.~S. 2016, \mnras, 462, 1085
@@ -157,6 +172,9 @@ Hogg, D.~W. 1999 [\eprint[arXiv]{astro-ph/9905116}]
 Marronetti, P., Duez, M.~D., Shapiro, S.~L., \& Baumgarte, T.~W. 2004, Phys.
   Rev. Lett., 92, 141101
 
+\bibitem[{Mills {et~al.}(2018)Mills, Tiwari, \& Fairhurst}]{Mills:2017urp}
+Mills, C., Tiwari, V., \& Fairhurst, S. 2018, Phys. Rev., D97, 104064
+
 \bibitem[{{Pian} {et~al.}(2017){Pian}, {D'Avanzo}, {Benetti}, {Branchesi},
   {Brocato}, {Campana}, {Cappellaro}, {Covino}, {D'Elia}, {Fynbo}, {Getman},
   {Ghirlanda}, {Ghisellini}, {Grado}, {Greco}, {Hjorth}, {Kouveliotou},
@@ -172,6 +190,9 @@ Marronetti, P., Duez, M.~D., Shapiro, S.~L., \& Baumgarte, T.~W. 2004, Phys.
   {Schipani}, {Spera}, {Stamerra}, {Stella}, {Tagliaferri}, {Testa}, {Troja},
   {Turatto}, {Vergani}, \& {Vergani}}]{Pian17}
 {Pian}, E., {D'Avanzo}, P., {Benetti}, S., {et~al.} 2017, \nat, 551, 67
+
+\bibitem[{Pitkin {et~al.}(2011)Pitkin, Reid, Rowan, \& Hough}]{GW_IFO_LRR}
+Pitkin, M., Reid, S., Rowan, S., \& Hough, J. 2011, 14
 
 \bibitem[{Sathyaprakash {et~al.}(2012)}]{Sathyaprakash:2012jk}
 Sathyaprakash, B. {et~al.} 2012, Class. Quant. Grav., 29, 124013, [Erratum:
@@ -215,6 +236,9 @@ Sathyaprakash, B. {et~al.} 2012, Class. Quant. Grav., 29, 124013, [Erratum:
 
 \bibitem[{{Tonry}(2011)}]{ATLAS}
 {Tonry}, J.~L. 2011, \pasp, 123, 58
+
+\bibitem[{Unnikrishnan(2013)}]{Unnikrishnan:2013qwa}
+Unnikrishnan, C.~S. 2013, Int. J. Mod. Phys., D22, 1341010
 
 \bibitem[{Wen \& Schutz(2005)}]{Wen:2005ui}
 Wen, L. \& Schutz, B.~F. 2005, Class. Quant. Grav., 22, S1321
