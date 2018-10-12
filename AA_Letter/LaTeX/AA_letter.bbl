@@ -1,9 +1,5 @@
-\begin{thebibliography}{45}
+\begin{thebibliography}{46}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
-
-\bibitem[{LIG(????)}]{LIGO_Voy}
- ????, {What Comes Next for LIGO? 2016 LIGO-DAWN Workshop II},
-  \url{https://wiki.ligo.org/pub/LSC/LIGOworkshop2016/WebHome/Dawn-II-Report-SecondDraft-v2.pdf}
 
 \bibitem[{{Abbott} {et~al.}(2016{\natexlab{a}}){Abbott}, {Abbott}, {Abbott},
   {Abernathy}, {Acernese}, {Ackley}, {Adams}, {Adams}, {Addesso}, {Adhikari},
@@ -62,10 +58,11 @@ Adam, R. {et~al.} 2016, Astron. Astrophys., 594, A1
 \bibitem[{{Akcay}(2018)}]{Akcay18}
 {Akcay}, S. 2018, Annals der Physik, 441, 1186
 
-\bibitem[{Akutsu {et~al.}(2017)}]{Akutsu:2017thy}
-Akutsu, T. {et~al.} 2017, in {15th International Conference on Topics in
-  Astroparticle and Underground Physics (TAUP 2017) Sudbury, Ontario, Canada,
-  July 24-28, 2017}
+\bibitem[{Akutsu {et~al.}(2017)Akutsu, Cadonati, Cavagli\'{a}, Gonzalez,
+  Lazzarini, \& Reitze}]{Akutsu:2017thy}
+Akutsu, T., Cadonati, L., Cavagli\'{a}, M., {et~al.} 2017, in {15th
+  International Conference on Topics in Astroparticle and Underground Physics
+  (TAUP 2017) Sudbury, Ontario, Canada, July 24-28, 2017}
 
 \bibitem[{Akutsu {et~al.}(2018)}]{KAGRA2}
 Akutsu, T. {et~al.} 2018, PTEP, 2018, 013F01
@@ -86,6 +83,11 @@ Akutsu, T. {et~al.} 2018, PTEP, 2018, 013F01
 \bibitem[{{Bellm}(2014)}]{ZTF}
 {Bellm}, E. 2014, in The Third Hot-wiring the Transient Universe Workshop, ed.
   P.~R. {Wozniak}, M.~J. {Graham}, A.~A. {Mahabal}, \& R.~{Seaman}, 27--33
+
+\bibitem[{Berger {et~al.}(2016)}]{LIGO_Voy}
+Berger, B. {et~al.} 2016, {What Comes Next for LIGO? 2016 LIGO-DAWN Workshop
+  II},
+  \url{https://wiki.ligo.org/pub/LSC/LIGOworkshop2016/WebHome/Dawn-II-Report-SecondDraft-v2.pdf}
 
 \bibitem[{{Bernal} {et~al.}(2016){Bernal}, {Verde}, \& {Riess}}]{Bern16}
 {Bernal}, J.~L., {Verde}, L., \& {Riess}, A.~G. 2016, \jcap, 10, 019
@@ -242,6 +244,9 @@ Unnikrishnan, C.~S. 2013, Int. J. Mod. Phys., D22, 1341010
 
 \bibitem[{Wen \& Schutz(2005)}]{Wen:2005ui}
 Wen, L. \& Schutz, B.~F. 2005, Class. Quant. Grav., 22, S1321
+
+\bibitem[{Yu {et~al.}(2018)}]{Yu:2017zgi}
+Yu, H. {et~al.} 2018, Phys. Rev. Lett., 120, 141102
 
 \bibitem[{Zhao \& Wen(2018)}]{Zhao:2017cbb}
 Zhao, W. \& Wen, L. 2018, Phys. Rev., D97, 064031
