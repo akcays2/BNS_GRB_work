@@ -221,5 +221,12 @@ But, it seems that KAGRA may get down to about 6e-22 at 6 Hz. This is NOT ENOUGH
 So the paper can carry this point as a plea to the gravitational-wave community.
 
 
+--------------- FEW MORE THOUGHTS -----------------
+
+4 unknowns per signal from a detector's perspective: {h+, hx, theta, phi}. Two detectors provide h1(t), h2(t) and time delay of signal between the two so they are not enough to localize short transients. L1 and H1 are 3000km, which translates to ~ 27 degrees. A source sweeping 2+ hours across ET's band, will have rotated > 30 degrees.
+So, for long enough transients, ET is effectively a much more sensitive L1+H1, and CE can be thought of a much more sensitive Virgo, joining after 5Hz.
+Therefore, I think we can localize 2+hour transient sources with just ET-C and CE.
+
+
 
 
