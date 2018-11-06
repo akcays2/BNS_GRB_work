@@ -1,4 +1,4 @@
-\begin{thebibliography}{46}
+\begin{thebibliography}{47}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Abbott} {et~al.}(2016{\natexlab{a}}){Abbott}, {Abbott}, {Abbott},
@@ -121,6 +121,15 @@ Blanchet, L. 2014, Living Rev. Rel., 17, 2
   {Regimbau}, {Laas-Bourez}, {Klotz}, {Bo{\"e}r}, \&
   {Branchesi}}]{2011MNRAS.415L..26C}
 {Coward}, D.~M., {Gendre}, B., {Sutton}, P.~J., {et~al.} 2011, \mnras, 415, L26
+
+\bibitem[{{Dilday} {et~al.}(2010){Dilday}, {Smith}, {Bassett}, {Becker},
+  {Bender}, {Castander}, {Cinabro}, {Filippenko}, {Frieman}, {Galbany},
+  {Garnavich}, {Goobar}, {Hopp}, {Ihara}, {Jha}, {Kessler}, {Lampeitl},
+  {Marriner}, {Miquel}, {Moll{\'a}}, {Nichol}, {Nordin}, {Riess}, {Sako},
+  {Schneider}, {Sollerman}, {Wheeler}, {{\"O}stman}, {Bizyaev}, {Brewington},
+  {Malanushenko}, {Malanushenko}, {Oravetz}, {Pan}, {Simmons}, \&
+  {Snedden}}]{2010ApJ...713.1026D}
+{Dilday}, B., {Smith}, M., {Bassett}, B., {et~al.} 2010, \apj, 713, 1026
 
 \bibitem[{{Drake} {et~al.}(2014){Drake}, {G{\"a}nsicke}, {Djorgovski}, {Wils},
   {Mahabal}, {Graham}, {Yang}, {Williams}, {Catelan}, {Prieto}, {Donalek},
