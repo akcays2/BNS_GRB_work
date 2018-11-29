@@ -201,29 +201,31 @@ is due to RMS-averaging \citep{Akcay18}. %over the angles $\{\theta,\phi,\iota,\
 For each source, this factor may vary by $\sim \pm 30\%$ compared to the average, 
 but will always be $>0$ thanks to ET not having any blind spots.
 
-We now use Eq.~(\ref{eq:ET_SNR}) to provide a precise definition of $T_\text{AW}$. Keep in mind
-that the advance warning time is the time interval between the moment of detection and the merger,
+%We now use Eq.~(\ref{eq:ET_SNR}) to provide a precise definition %of the advance warning time 
+We define $T_\text{AW}$ to be the time interval between the moment of detection and the merger,
 therefore we must first define the former.
-We do this as follows: let $f_0$ be the frequency
+We do this using Eq.~(\ref{eq:ET_SNR}) as follows: let $f_0$ be the frequency
 at which the GW strain equals the detector noise, i.e., $\sqrt{S_n(f_0)}=2\sqrt{f_0} \tilde{H}_\text{ET}(f_0)$ where $\tilde{H}_\text{ET}(f)=3 h_0 f^{-7/6}/5$.
-The moment of detection is given by 
-$\bar{f}>f_0$ such that $\rho_\text{ET}(f_0,\bar{f})=15$. Then we immediately have
-$T_\text{AW} = \tau_\text{insp}(\bar{f})$
-and the total accumulated SNR is given by
-$\rho_\text{tot}=\rho_\text{ET}(f_0, f_\text{ISCO})$, where
-$f_\text{ISCO}$ is the frequency at which the inspiral transitions to plunge. Here, we use the standard approximation from general relativity: $f_\text{ISCO} \approx \tfrac{c^3}{6^{3/2}\pi G (m_1+m_2)} \simeq 1571 \left(\tfrac{2.8M_\odot}{m_1+m_2}\right)\text{Hz}$. Our chosen threshold SNR of 15 is not set in stone;
+The instant of detection is given by 
+$\bar{f}>f_0$ such that $\rho_\text{ET}(f_0,\bar{f})=15$, thus yielding 
+%Then we immediately have
+$T_\text{AW} = \tau_\text{insp}(\bar{f})$.
+The total accumulated SNR is given by $\rho_\text{tot}=\rho_\text{ET}(f_0, f_\text{ISCO})$, 
+where $f_\text{ISCO}$ is the frequency at which the inspiral transitions to plunge. 
+Here, we use the standard approximation from general relativity: 
+$f_\text{ISCO} \approx {c^3}\left({6^{3/2}\pi G (m_1+m_2)}\right)^{-1} \simeq 1571 \left(\frac{2.8M_\odot}{m_1+m_2}\right)\text{Hz}$. 
+Our chosen threshold SNR of 15 is not set in stone;
 other common choices are 8 and 12, but we choose to be more conservative.
 
 The only free variable left to determine
 $T_\text{AW}$ is the luminosity distance D ($z$ is obtained from it and vice versa). In Fig.~
 \ref{fig:ETB2030} we display the GW strain for four canonical ($m_1=m_2=1.4 M_\odot$) BNS inspirals at $D=100,200, 400, 600\,$Mpc. 
-The corresponding ASDs scale as $ \sqrt{f} f^{-7/6} = f^{-2/3}$,
-thus are straight lines with slopes of $-2/3$ in the figure.
-ET-C's
-noise is the thick, red curve with highest sensitivity for $f\lesssim 10\,$Hz. We can clearly see the frequencies $f_0$ where the
-straight lines intersect ET-C's noise curve.
-We list the advance warning times along with the total SNRs for these four sources in  Table~\ref{table:ET}.
-We can see that ET-C is capable of providing up to five hours of early warning before merger,
+ET-C's noise is the thick, red curve with the best sensitivity for $f\lesssim 10\,$Hz. 
+In traditional ASD plots, inspiral GW strains scale as $ \sqrt{f} f^{-7/6} = f^{-2/3}$ \citep{Colpi_Sesana},
+hence are straight lines with slopes of $-2/3$ in the figure.
+The frequencies $f_0$ where these straight lines intersect ET-C's noise curve are distinguishable below 2\,Hz.
+We list the advance warning times along with the total SNRs for these sources in  Table~\ref{table:ET}, where
+we show that ET-C is capable of providing up to five hours of early warning before merger,
 thus offering a tremendous opportunity to electromagnetically observe the merger-GRB-kilonova with available
 resources in the 2030s.
 But we should first see if ET can forecast enough BNS events and localise them to make a follow-up campaign worthwhile.
@@ -239,7 +241,7 @@ of luminosity distance $D$ and the corresponding redshift $z$.
 $\bar{f}$ is the threshold frequency at which ET-C accumulates SNR of 15.
 $T_\text{AW}$ is the inspiral time from the instant when the GW frequency equals $\bar{f}$.
 $\rho_\text{tot}$ is the total accumulated SNR of each inspiral.
-Last column lists the event rates in the format $\text{av}^\text{max}_\text{min}$ in units of $D^{-3}\,\text{yr}^{-1}$.
+Last column lists the event rates in the format $\text{average}^\text{max}_\text{min}$ in units of $D^{-3}\,\text{yr}^{-1}$.
 The numbers have been rounded when appropriate.}
 \label{table:ET}
 \centering
@@ -290,11 +292,12 @@ Otherwise, we would have to draw four additional BNS strains, each of which scal
 %
 %
 
-We can see from Table~\ref{table:ET} that an event as near as GW170817 is a once-per-decade occurence,
-but within $z\lesssim 0.1$, we can expect ET-C to annually detect GWs from 40 to 600 BNS transients.
-Roughly 7\% of these will be within 200\,Mpc yielding $T_\text{AW}\gtrsim 3\,$hours which means that EM observatories will be alerted 3 - 40 times yearly with the prospects of observing the birth of kilonovae.
-If we make the bold assumption that future EM observatories would suffice with an hour's warning then
-all the BNS transients within 600\,Mpc become possible candidates for merger-kilonovae observations.
+We see from Table~\ref{table:ET} that %an event as near as GW170817 is a once-per-decade occurence, but
+within $z\lesssim 0.1$, %we can expect 
+ET-C will annually detect GWs from $\sim$ 40 to 600 BNS transients.
+Roughly 7\% of these will be within 200\,Mpc yielding $T_\text{AW}\gtrsim 3\,$hours which means that EM observatories will be alerted $\sim 3$ - 40 times yearly with the prospects of observing the births of kilonovae.
+If we assume that future EM observatories would suffice with $T_\text{AW}=1\,$hour then
+all BNS transients within 600\,Mpc become possible candidates for merger-kilonovae observations.
 In this case, early warnings would be sent by ET at least once a week and at most three times per day.
 It is not feasible to have a system in place to observe each one of these events
 so it will make sense to be selective and focus on the best candidates.
@@ -302,8 +305,8 @@ These  will naturally mostly be the nearest sources which will additionally be f
 %will act as an extra selection filter, favouring events with the largest $T_\text{AW}$.
 
 \subsection{Source localisation estimations}
-Though ET will have no blind spots because it consists of three V-IFOs in one plane, each rotated by $120^\circ$,
-it will have poor source localisation because all three IFOs are at the same location. 
+%Though ET will have no blind spots because it consists of three V-IFOs in one plane, each rotated by $120^\circ$,
+ET will have poor source localisation because all three of its IFOs will be at the same location. 
 However, as our findings in Table~\ref{table:ET} indicate, ET-C will
 detect BNS inspirals hours before the merger during which time the Earth will have rotated by as much as
 a few dozen degrees. This means that over this time ET can be treated as a network.

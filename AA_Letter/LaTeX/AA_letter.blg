@@ -4,49 +4,50 @@ The top-level auxiliary file: AA_letter.aux
 The style file: aa.bst
 Database file #1: GWbib.bib
 Warning--entry type for "LIGO_Voy" isn't style-file defined
---line 105 of file GWbib.bib
+--line 122 of file GWbib.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Warning--empty publisher in Colpi_Sesana
 Warning--empty journal in Hogg:1999ad
 Warning--empty journal in GW_IFO_LRR
-You've used 47 entries,
+You've used 48 entries,
             3039 wiz_defined-function locations,
-            1007 strings with 21013 characters,
-and the built_in function-call counts, 42090 in all, are:
-= -- 3165
-> -- 5388
-< -- 17
-+ -- 1805
-- -- 1753
-* -- 3954
-:= -- 7884
-add.period$ -- 47
-call.type$ -- 47
-change.case$ -- 767
-chr.to.int$ -- 42
-cite$ -- 49
-duplicate$ -- 901
-empty$ -- 1286
-format.name$ -- 1871
-if$ -- 8229
+            1015 strings with 21264 characters,
+and the built_in function-call counts, 42656 in all, are:
+= -- 3216
+> -- 5417
+< -- 18
++ -- 1814
+- -- 1761
+* -- 3994
+:= -- 7975
+add.period$ -- 48
+call.type$ -- 48
+change.case$ -- 773
+chr.to.int$ -- 43
+cite$ -- 51
+duplicate$ -- 928
+empty$ -- 1330
+format.name$ -- 1885
+if$ -- 8352
 int.to.chr$ -- 6
 int.to.str$ -- 1
 missing$ -- 41
-newline$ -- 145
-num.names$ -- 189
-pop$ -- 754
+newline$ -- 148
+num.names$ -- 194
+pop$ -- 763
 preamble$ -- 1
-purify$ -- 765
+purify$ -- 771
 quote$ -- 0
-skip$ -- 811
+skip$ -- 840
 stack$ -- 0
-substring$ -- 1044
-swap$ -- 45
+substring$ -- 1078
+swap$ -- 51
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 423
-warning$ -- 2
-while$ -- 184
+type$ -- 432
+warning$ -- 3
+while$ -- 190
 width$ -- 0
-write$ -- 472
-(There were 3 warnings)
+write$ -- 482
+(There were 4 warnings)
