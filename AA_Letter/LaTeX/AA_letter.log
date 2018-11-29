@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.12)  28 NOV 2018 16:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.12)  29 NOV 2018 13:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -952,11 +952,11 @@ Underfull \vbox (badness 2762) has occurred while \output is active []
 
 ] [2]
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 9.49997pt on input line 262.
+(Font)              scaled to size 9.49997pt on input line 265.
 LaTeX Font Info:    Font shape `T1/txss/m/it' in size <10> not available
-(Font)              Font shape `T1/txss/m/sl' tried instead on input line 262.
+(Font)              Font shape `T1/txss/m/sl' tried instead on input line 265.
 LaTeX Font Info:    Font shape `T1/txss/m/sl' will be
-(Font)              scaled to size 9.49997pt on input line 262.
+(Font)              scaled to size 9.49997pt on input line 265.
 
 
 pdfTeX warning: /usr/bin/pdflatex (file ../Figs/ET_strains_redshifted_v2.pdf): 
@@ -966,22 +966,22 @@ File: ../Figs/ET_strains_redshifted_v2.pdf Graphic file (type pdf)
 
 <use ../Figs/ET_strains_redshifted_v2.pdf>
 Package pdftex.def Info: ../Figs/ET_strains_redshifted_v2.pdf used on input lin
-e 272.
+e 275.
 (pdftex.def)             Requested size: 256.0748pt x 166.80087pt.
 
-Underfull \hbox (badness 1158) in paragraph at lines 283--283
+Underfull \hbox (badness 1158) in paragraph at lines 286--286
 \T1/txr/m/n/9 red curve). The solid (black), dot-ted (blue), dashed (green), an
 d
  []
 
 
-Underfull \hbox (badness 1163) in paragraph at lines 283--283
+Underfull \hbox (badness 1163) in paragraph at lines 286--286
 \T1/txr/m/n/9 averaged GW strains, $\OT1/txr/m/n/9 2[][]$\T1/txr/m/n/9 , at lu-
 mi-nos-ity dis-tances of $\OML/txmi/m/it/9 D \OT1/txr/m/n/9 =
  []
 
 [3 <../Figs/ET_strains_redshifted_v2.pdf>]
-Underfull \hbox (badness 3386) in paragraph at lines 369--370
+Underfull \hbox (badness 3386) in paragraph at lines 372--373
 []\T1/txr/m/n/10 AGN can of-ten be iden-ti-fied through their his-tor-i-cal
  []
 
@@ -989,19 +989,23 @@ Underfull \hbox (badness 3386) in paragraph at lines 369--370
 File: ../Figs/SNIa_lim22mag.pdf Graphic file (type pdf)
 
 <use ../Figs/SNIa_lim22mag.pdf>
-Package pdftex.def Info: ../Figs/SNIa_lim22mag.pdf used on input line 375.
+Package pdftex.def Info: ../Figs/SNIa_lim22mag.pdf used on input line 378.
 (pdftex.def)             Requested size: 256.0748pt x 176.04631pt.
- (./AA_letter.bbl [5 <../Figs/SNIa_lim22mag.pdf>]) [6
+
+Underfull \vbox (badness 2460) has occurred while \output is active []
+
+
+(./AA_letter.bbl [5 <../Figs/SNIa_lim22mag.pdf>]) [6
 
 ] (./AA_letter.aux) ) 
 Here is how much of TeX's memory you used:
  6310 strings out of 493033
  81439 string characters out of 6136454
- 173011 words of memory out of 5000000
+ 173777 words of memory out of 5000000
  9639 multiletter control sequences out of 15000+600000
  99696 words of font info for 155 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,12n,45p,1503b,477s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,12n,45p,1503b,483s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc
 }</usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/te
@@ -1015,7 +1019,7 @@ mf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/font
 s/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/tim
 es/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on AA_letter.pdf (6 pages, 205562 bytes).
+Output written on AA_letter.pdf (6 pages, 205304 bytes).
 PDF statistics:
  129 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
