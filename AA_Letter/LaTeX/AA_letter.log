@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.12)  30 NOV 2018 16:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.12)  10 DEC 2018 19:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -948,11 +948,11 @@ Underfull \vbox (badness 2762) has occurred while \output is active []
 
 ] [2]
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 9.49997pt on input line 267.
+(Font)              scaled to size 9.49997pt on input line 274.
 LaTeX Font Info:    Font shape `T1/txss/m/it' in size <10> not available
-(Font)              Font shape `T1/txss/m/sl' tried instead on input line 267.
+(Font)              Font shape `T1/txss/m/sl' tried instead on input line 274.
 LaTeX Font Info:    Font shape `T1/txss/m/sl' will be
-(Font)              scaled to size 9.49997pt on input line 267.
+(Font)              scaled to size 9.49997pt on input line 274.
 
 
 pdfTeX warning: /usr/bin/pdflatex (file ../Figs/ET_strains_redshifted_v2.pdf): 
@@ -962,16 +962,16 @@ File: ../Figs/ET_strains_redshifted_v2.pdf Graphic file (type pdf)
 
 <use ../Figs/ET_strains_redshifted_v2.pdf>
 Package pdftex.def Info: ../Figs/ET_strains_redshifted_v2.pdf used on input lin
-e 277.
+e 284.
 (pdftex.def)             Requested size: 256.0748pt x 166.80087pt.
 
-Underfull \hbox (badness 1158) in paragraph at lines 288--288
+Underfull \hbox (badness 1158) in paragraph at lines 295--295
 \T1/txr/m/n/9 red curve). The solid (black), dot-ted (blue), dashed (green), an
 d
  []
 
 
-Underfull \hbox (badness 1163) in paragraph at lines 288--288
+Underfull \hbox (badness 1163) in paragraph at lines 295--295
 \T1/txr/m/n/9 averaged GW strains, $\OT1/txr/m/n/9 2[][]$\T1/txr/m/n/9 , at lu-
 mi-nos-ity dis-tances of $\OML/txmi/m/it/9 D \OT1/txr/m/n/9 =
  []
@@ -982,13 +982,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [3 <../Figs/ET_strains_redshifted_v2.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Font Info:    Try loading font information for T1+txtt on input line 374.
+LaTeX Font Info:    Try loading font information for T1+txtt on input line 381.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/t1txtt.fd
 File: t1txtt.fd 2000/12/15 v3.1
 )
-Underfull \hbox (badness 3386) in paragraph at lines 374--375
+Underfull \hbox (badness 3386) in paragraph at lines 381--382
 []\T1/txr/m/n/10 AGN can of-ten be iden-ti-fied through their his-tor-i-cal
  []
 
@@ -996,7 +996,7 @@ Underfull \hbox (badness 3386) in paragraph at lines 374--375
 File: ../Figs/SNIa_lim22mag.pdf Graphic file (type pdf)
 
 <use ../Figs/SNIa_lim22mag.pdf>
-Package pdftex.def Info: ../Figs/SNIa_lim22mag.pdf used on input line 380.
+Package pdftex.def Info: ../Figs/SNIa_lim22mag.pdf used on input line 387.
 (pdftex.def)             Requested size: 256.0748pt x 176.04631pt.
  (./AA_letter.bbl [5 <../Figs/SNIa_lim22mag.pdf>]) [6
 
@@ -1004,7 +1004,7 @@ Package pdftex.def Info: ../Figs/SNIa_lim22mag.pdf used on input line 380.
 Here is how much of TeX's memory you used:
  6309 strings out of 493033
  81465 string characters out of 6136454
- 174827 words of memory out of 5000000
+ 173827 words of memory out of 5000000
  9641 multiletter control sequences out of 15000+600000
  96608 words of font info for 152 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1021,7 +1021,7 @@ exlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/ut
 mr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on AA_letter.pdf (6 pages, 201461 bytes).
+Output written on AA_letter.pdf (6 pages, 201441 bytes).
 PDF statistics:
  125 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
