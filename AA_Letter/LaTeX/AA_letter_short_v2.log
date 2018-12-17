@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.12)  17 DEC 2018 15:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.12)  17 DEC 2018 18:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -952,21 +952,8 @@ Underfull \hbox (badness 1789) in paragraph at lines 102--107
 
 
 ]
-Underfull \hbox (badness 2096) in paragraph at lines 218--232
-\T1/txr/m/n/10 ment of de-tec-tion de-fined as fol-lows: let $\OML/txmi/m/it/10
- f[]$ \T1/txr/m/n/10 be the fre-
- []
-
-
-Underfull \hbox (badness 1019) in paragraph at lines 218--232
-\OT1/txr/m/n/10 15$\T1/txr/m/n/10 . Thus $\OML/txmi/m/it/10 T[] \OT1/txr/m/n/10
- = \OML/txmi/m/it/10 ^^\[]\OT1/txr/m/n/10 ([])$\T1/txr/m/n/10 . The to-tal ac-c
-u-mu-lated SNR is
- []
-
-
-Underfull \hbox (badness 1533) in paragraph at lines 218--232
-\T1/txr/m/n/10 at which the in-spi-ral tran-si-tions to plunge. Here, we use
+Underfull \hbox (badness 1708) in paragraph at lines 218--232
+\T1/txr/m/n/10 at which the GW strain equals the RMS-averaged de-tec-
  []
 
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
@@ -977,41 +964,47 @@ LaTeX Font Info:    Font shape `T1/txss/m/sl' will be
 (Font)              scaled to size 9.49997pt on input line 299.
 
 
-pdfTeX warning: /usr/bin/pdflatex (file ../Figs/ET_strains_redshifted_v3.pdf): 
+pdfTeX warning: /usr/bin/pdflatex (file ../Figs/ET_strains_redshifted_v4.pdf): 
 PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<../Figs/ET_strains_redshifted_v3.pdf, id=14, 722.7pt x 482.80376pt>
-File: ../Figs/ET_strains_redshifted_v3.pdf Graphic file (type pdf)
+<../Figs/ET_strains_redshifted_v4.pdf, id=14, 722.7pt x 482.80376pt>
+File: ../Figs/ET_strains_redshifted_v4.pdf Graphic file (type pdf)
 
-<use ../Figs/ET_strains_redshifted_v3.pdf>
-Package pdftex.def Info: ../Figs/ET_strains_redshifted_v3.pdf used on input lin
+<use ../Figs/ET_strains_redshifted_v4.pdf>
+Package pdftex.def Info: ../Figs/ET_strains_redshifted_v4.pdf used on input lin
 e 313.
 (pdftex.def)             Requested size: 341.43306pt x 228.09651pt.
 
-Underfull \hbox (badness 1721) in paragraph at lines 324--324
+Underfull \hbox (badness 1721) in paragraph at lines 323--323
 []\T1/txr/bx/n/9 Fig. 1.  |$\OT1/txr/m/n/9 1\OML/txmi/m/it/9 :\OT1/txr/m/n/9 4\
 OML/txmi/m/it/9 M[]$ \T1/txr/m/n/9 - $\OT1/txr/m/n/9 1\OML/txmi/m/it/9 :\OT1/tx
 r/m/n/9 4\OML/txmi/m/it/9 M[]$ \T1/txr/m/n/9 in-spi-ralling BNS
  []
 
 
-Underfull \hbox (badness 1609) in paragraph at lines 324--324
-\T1/txr/m/n/9 lines are the redshift-corrected angle-RMS-
+Underfull \hbox (badness 1127) in paragraph at lines 323--323
+\T1/txr/m/n/9 lines are the redshift-corrected GW strains,
+ []
+
+
+Underfull \hbox (badness 1708) in paragraph at lines 323--323
+\OT1/txr/m/n/9 2[][]$\T1/txr/m/n/9 , at lu-mi-nos-ity dis-tances of $\OML/txmi/
+m/it/9 D \OT1/txr/m/n/9 =
  []
 
 [2] [3] <../Figs/SNIa_lim22mag_v2.pdf, id=24, 578.16pt x 397.485pt>
 File: ../Figs/SNIa_lim22mag_v2.pdf Graphic file (type pdf)
 
 <use ../Figs/SNIa_lim22mag_v2.pdf>
-Package pdftex.def Info: ../Figs/SNIa_lim22mag_v2.pdf used on input line 419.
+Package pdftex.def Info: ../Figs/SNIa_lim22mag_v2.pdf used on input line 418.
 (pdftex.def)             Requested size: 256.0748pt x 176.04631pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \vbox (badness 5490) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [4 <../Figs/ET_strains_redshifted_v3.pdf> <../Figs/SNIa_lim22mag_v2.pdf
+ [4 <../Figs/ET_strains_redshifted_v4.pdf> <../Figs/SNIa_lim22mag_v2.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ../Figs/SNIa_lim22mag_v2.pdf): PDF incl
 usion: multiple pdfs with page group included in a single page
@@ -1049,7 +1042,7 @@ texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr
 i8a.pfb>
-Output written on AA_letter_short_v2.pdf (5 pages, 209331 bytes).
+Output written on AA_letter_short_v2.pdf (5 pages, 210540 bytes).
 PDF statistics:
  127 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
